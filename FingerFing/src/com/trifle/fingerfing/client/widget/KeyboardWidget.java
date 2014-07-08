@@ -80,5 +80,10 @@ public class KeyboardWidget extends Composite {
 	@UiField Button keyRAlt;
 	@UiField Button keyMenu;
 	@UiField Button keyRCtrl;
+	
+	public void setEffect(Widget w, Effect e){
+		
+	}
+	
 
 }
