@@ -1,0 +1,200 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+			<g:AbsolutePanel height="270px" width="762px"
+				ui:field="keysPanel">
+				<g:at left="10" top="10">
+					<g:Button width="45px" height="45px" ui:field="keyGraveAccent" />
+				</g:at>
+				<g:at left="61" top="10">
+					<g:Button width="45px" height="45px" ui:field="key1" />
+				</g:at>
+				<g:at left="112" top="10">
+					<g:Button width="45px" height="45px" ui:field="key2" />
+				</g:at>
+				<g:at left="163" top="10">
+					<g:Button width="45px" height="45px" ui:field="key3" />
+				</g:at>
+				<g:at left="214" top="10">
+					<g:Button width="45px" height="45px" ui:field="key4" />
+				</g:at>
+				<g:at left="265" top="10">
+					<g:Button width="45px" height="45px" ui:field="key5" />
+				</g:at>
+				<g:at left="316" top="10">
+					<g:Button width="45px" height="45px" ui:field="key6" />
+				</g:at>
+				<g:at left="367" top="10">
+					<g:Button width="45px" height="45px" ui:field="key7" />
+				</g:at>
+				<g:at left="418" top="10">
+					<g:Button width="45px" height="45px" ui:field="key8" />
+				</g:at>
+				<g:at left="469" top="10">
+					<g:Button width="45px" height="45px" ui:field="key9" />
+				</g:at>
+				<g:at left="520" top="10">
+					<g:Button width="45px" height="45px" ui:field="key0" />
+				</g:at>
+				<g:at left="571" top="10">
+					<g:Button width="45px" height="45px" ui:field="keyMinus" />
+				</g:at>
+				<g:at left="622" top="10">
+					<g:Button width="45px" height="45px" ui:field="keyEqual" />
+				</g:at>
+				<g:at left="673" top="10">
+					<g:Button width="79px" height="45px" text="Backspace"
+						ui:field="keyBackspace" />
+				</g:at>
+				<g:at left="10" top="61">
+					<g:Button width="62px" height="45px" text="Tab" ui:field="keyTab" />
+				</g:at>
+				<g:at left="78" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyQ" />
+				</g:at>
+				<g:at left="129" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyW" />
+				</g:at>
+				<g:at left="180" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyE" />
+				</g:at>
+				<g:at left="231" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyR" />
+				</g:at>
+				<g:at left="282" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyT" />
+				</g:at>
+				<g:at left="333" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyY" />
+				</g:at>
+				<g:at left="384" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyU" />
+				</g:at>
+				<g:at left="435" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyI" />
+				</g:at>
+				<g:at left="486" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyO" />
+				</g:at>
+				<g:at left="537" top="61">
+					<g:Button width="45px" height="45px" ui:field="keyP" />
+				</g:at>
+				<g:at left="588" top="61">
+					<g:Button width="45px" height="45px" ui:field="keySqBracketOpen" />
+				</g:at>
+				<g:at left="639" top="61">
+					<g:Button width="45px" height="45px" ui:field="keySqBracketClose" />
+				</g:at>
+				<g:at left="690" top="61">
+					<g:Button width="62px" height="45px" ui:field="keyBackslash" />
+				</g:at>
+				<g:at left="10" top="112">
+					<g:Button width="79px" height="45px" text="Caps Lock"
+						ui:field="keyCapsLock" />
+				</g:at>
+				<g:at left="95" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyA" />
+				</g:at>
+				<g:at left="146" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyS" />
+				</g:at>
+				<g:at left="197" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyD" />
+				</g:at>
+				<g:at left="248" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyF" />
+				</g:at>
+				<g:at left="299" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyG" />
+				</g:at>
+				<g:at left="350" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyH" />
+				</g:at>
+				<g:at left="401" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyJ" />
+				</g:at>
+				<g:at left="452" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyK" />
+				</g:at>
+				<g:at left="503" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyL" />
+				</g:at>
+				<g:at left="554" top="112">
+					<g:Button width="45px" height="45px" ui:field="keySemicolon" />
+				</g:at>
+				<g:at left="605" top="112">
+					<g:Button width="45px" height="45px" ui:field="keyApostrophe" />
+				</g:at>
+				<g:at left="656" top="112">
+					<g:Button width="96px" height="45px" text="Enter"
+						ui:field="keyEnter" />
+				</g:at>
+				<g:at left="10" top="163">
+					<g:Button width="96px" height="45px" text="Shift"
+						ui:field="keyLShift" />
+				</g:at>
+				<g:at left="112" top="163">
+					<g:Button width="45px" height="45px" ui:field="keyZ" />
+				</g:at>
+				<g:at left="163" top="163">
+					<g:Button width="45px" height="45px" ui:field="keyX" />
+				</g:at>
+				<g:at left="214" top="163">
+					<g:Button width="45px" height="45px" ui:field="keyC" />
+				</g:at>
+				<g:at left="265" top="163">
+					<g:Button width="45px" height="45px" ui:field="keyV" />
+				</g:at>
+				<g:at left="316" top="163">
+					<g:Button width="45px" height="45px" ui:field="keyB" />
+				</g:at>
+				<g:at left="367" top="163">
+					<g:Button width="45px" height="45px" ui:field="keyN" />
+				</g:at>
+				<g:at left="418" top="163">
+					<g:Button width="45px" height="45px" ui:field="keyM" />
+				</g:at>
+				<g:at left="469" top="163">
+					<g:Button width="45px" height="45px" ui:field="keyComma" />
+				</g:at>
+				<g:at left="520" top="163">
+					<g:Button width="45px" height="45px" ui:field="keyFullstop" />
+				</g:at>
+				<g:at left="571" top="163">
+					<g:Button width="45px" height="45px" ui:field="keySlash" />
+				</g:at>
+				<g:at left="622" top="163">
+					<g:Button width="130px" height="45px" text="Shift"
+						ui:field="keyRShift" />
+				</g:at>
+				<g:at left="10" top="214">
+					<g:Button width="45px" height="45px" text="Ctrl" ui:field="keyLCtrl" />
+				</g:at>
+				<g:at left="61" top="214">
+					<g:Button width="45px" height="45px" text="Fn" ui:field="keyFn" />
+				</g:at>
+				<g:at left="112" top="214">
+					<g:Button width="45px" height="45px" text="Win" ui:field="keyWin" />
+				</g:at>
+				<g:at left="163" top="214">
+					<g:Button width="45px" height="45px" text="Alt" ui:field="keyLAlt" />
+				</g:at>
+				<g:at left="214" top="214">
+					<g:Button width="249px" height="45px" ui:field="keySpace" />
+				</g:at>
+				<g:at left="469" top="214">
+					<g:Button width="45px" height="45px" text="Alt" ui:field="keyRAlt" />
+				</g:at>
+				<g:at left="520" top="214">
+					<g:Button width="45px" height="45px" text="Menu" ui:field="keyMenu" />
+				</g:at>
+				<g:at left="571" top="214">
+					<g:Button width="45px" height="45px" text="Ctrl" ui:field="keyRCtrl" />
+				</g:at>
+			</g:AbsolutePanel>
+</ui:UiBinder> 
