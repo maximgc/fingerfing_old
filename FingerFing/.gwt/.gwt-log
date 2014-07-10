@@ -94,3 +94,1729 @@ Compiling...
    Compilation completed in 0,00 seconds
 Removing invalidated units
 Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2750 units from cache.
+Compiling...
+   10% complete (ETR: 32 seconds)
+   10% complete (ETR: 32 seconds)
+   20% complete (ETR: 25 seconds)
+   30% complete (ETR: 26 seconds)
+   40% complete (ETR: 18 seconds)
+   50% complete (ETR: 12 seconds)
+   60% complete (ETR: 9 seconds)
+   70% complete (ETR: 6 seconds)
+   80% complete (ETR: 3 seconds)
+   90% complete (ETR: 2 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 28,71 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 26: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,11 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811196342_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811199424_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811225111_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,07 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811265432_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811269489_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811341814_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2749 cached/archived units.  Used 2749 / 2750 units from cache.
+Compiling...
+   Compilation completed in 0,02 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 26: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811494298_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811494879_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811501445_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811754107_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811754284_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404811822053_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404812101809_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404812101989_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   30% complete (ETR: 10 seconds)
+   30% complete (ETR: 10 seconds)
+   30% complete (ETR: 10 seconds)
+   30% complete (ETR: 10 seconds)
+   40% complete (ETR: 8 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 21,64 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   50% complete (ETR: 5 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 21,91 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2751 units from cache.
+Compiling...
+   90% complete (ETR: 0 seconds)
+   90% complete (ETR: 0 seconds)
+   90% complete (ETR: 0 seconds)
+   90% complete (ETR: 0 seconds)
+   90% complete (ETR: 0 seconds)
+   90% complete (ETR: 0 seconds)
+   90% complete (ETR: 0 seconds)
+   90% complete (ETR: 0 seconds)
+   90% complete (ETR: 0 seconds)
+   90% complete (ETR: 0 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 8,96 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404896846239_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404896848180_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404896870914_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2750 cached/archived units.  Used 2750 / 2751 units from cache.
+Compiling...
+   Compilation completed in 0,04 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897559595_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897560154_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897577206_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897577244_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897605163_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '2' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897605188_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897605295_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897621533_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,05 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897638319_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897649373_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897652322_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897656065_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897695208_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897695395_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897698797_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897812754_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897812930_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897829703_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897836661_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897839538_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897860388_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897899878_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Could not find no-arg method named keyboardKeyLabel in type com.google.gwt.resources.client.CssResource
+[ERROR] Deferred binding failed for 'com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 2750 cached/archived units.  Used 2750 / 2751 units from cache.
+Compiling...
+   Compilation completed in 0,03 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897938542_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897939034_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897949013_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897968939_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404897969135_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404898004809_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404898036072_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404898067768_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404898071172_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404898081672_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404898106803_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404898117799_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404898145775_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404898149017_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404900786653_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2749 cached/archived units.  Used 2749 / 2751 units from cache.
+Compiling...
+   Compilation completed in 0,06 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404901135032_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404901135564_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404901248597_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget.KeyboardWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.KeyboardWidget_KeyboardWidgetUiBinderImpl_designTime1404901343775_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 20,69 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2755 units from cache.
+Compiling...
+   Compilation completed in 0,21 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973154482.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973154482.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973154482_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973155520.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973155520.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973155520_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973171979.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973171979.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973171979_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973173736.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973173736.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973173736_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973183396.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973183396.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973183396_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973185367.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973185367.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973185367_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973186198.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973186198.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973186198_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973187221.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973187221.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973187221_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973188463.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973188463.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973188463_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973190036.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973190036.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973190036_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973196642.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973196642.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973196642_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973203107.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973203107.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973203107_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973209637.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973209637.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973209637_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973209691.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973209691.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973209691_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973214396.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973214396.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973214396_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973215581.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973215581.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973215581_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973216340.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973216340.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973216340_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973217502.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973217502.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973217502_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973220356.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973220356.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973220356_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973221292.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973221292.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973221292_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973251811.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973251811.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973251811_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973283453.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973283453.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973283453_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973286587.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973286587.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973286587_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973352563.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973352563.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973352563_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973357488.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973357488.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404973357488_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2750 cached/archived units.  Used 2750 / 2755 units from cache.
+Compiling...
+   Compilation completed in 0,03 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974352669.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974352669.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974352669_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974353055.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974353055.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974353055_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974371300.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974371300.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974371300_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974383123.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974383123.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974383123_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974388335.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974388335.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974388335_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974388444.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974388444.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974388444_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974392697.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974392697.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974392697_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974395306.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974395306.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974395306_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974413761.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974413761.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974413761_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974439227.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974439227.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974439227_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974444637.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974444637.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974444637_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974451167.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974451167.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974451167_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974455667.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974455667.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974455667_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974463333.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974463333.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974463333_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData.SensorDataUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974472739.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974472739.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorData_SensorDataUiBinderImpl_designTime1404974472739_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units

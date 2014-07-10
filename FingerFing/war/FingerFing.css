@@ -28,7 +28,14 @@ h1 {
   color: red;
 }
 
+.keyboardKey {
+	background-color: rgb(241, 241, 241);
+}
+
 /** Set ids using widget.getElement().setId("idOfElement") */
 #closeButton {
   margin: 15px 6px 6px;
+}
+.keyboardKeyLabel {
+	font-size: 18px;
 }
