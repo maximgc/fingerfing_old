@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget;
+package com.trifle.fingerfing.client.widget.effect;
 
 import com.google.gwt.user.client.ui.Widget;
 

@@ -1,17 +1,20 @@
-package com.trifle.fingerfing.client.widget;
+package com.trifle.fingerfing.client.widget.effect;
 
-public class WidgetColor {
+public class EColor {
 	
 	private int red, green, blue;
 	
 	private String str;
 
-	public WidgetColor(int red, int green, int blue) {
+	public EColor(int red, int green, int blue) {
+		if (red>255||green>255||blue>255){
+			throw new IllegalEColor();
+		}
 		this.red = red;
 		this.green = green;
 		this.blue = blue;
-		this.str = new StringBuilder("rgb(").append(red).append(",").append(green)
-				.append(",").append(blue).append(")").toString(); 
+		this.str = "rgb("+red+", "+green+", "+blue+")";
+				//String.format("rgb(%d, %d, %d)", red, green, blue); - doesn't emulate
 	}
 
 	public int getRed() {

@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget;
+package com.trifle.fingerfing.client.widget.effect;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,6 +6,9 @@ import java.util.Map;
 import com.google.gwt.animation.client.Animation;
 import com.google.gwt.user.client.ui.Widget;
 
+
+//TODO Импортирован из старого проекта, нужен пересмотр
+@Deprecated
 public class WidgetEffect {
 
 	private WidgetEffect() {
@@ -14,18 +17,18 @@ public class WidgetEffect {
 	private static final int ANIM_TIME = 2000;
 	private static Map<Widget, Animation> animationsBgColor = new HashMap<Widget, Animation>();
 	
-	public static <T extends Widget> void changeColor(T w, WidgetColor newColor){
+	public static <T extends Widget> void changeColor(T w, EColor newColor){
 		w.getElement().getStyle().setColor(newColor.toStringRgbFomat());
 	}
 	
-	public static <T extends Widget> void changeBackgroundColor(T w, WidgetColor newColor){
+	public static <T extends Widget> void changeBackgroundColor(T w, EColor newColor){
 		if (animationsBgColor.get(w)!=null) {
 			animationsBgColor.get(w).cancel();
 		}
 		w.getElement().getStyle().setBackgroundColor(newColor.toStringRgbFomat());
 	}
 	
-	public static <T extends Widget> void animationBackgroundColor(T w, WidgetColor start, WidgetColor end) {
+	public static <T extends Widget> void animationBackgroundColor(T w, EColor start, EColor end) {
 		if (animationsBgColor.get(w)!=null) {
 			animationsBgColor.get(w).cancel();
 		}
@@ -45,7 +48,7 @@ class AnimationBgColor<T extends Widget> extends Animation{
 	final int sRed, sGreen, sBlue, eRed, eGreen, eBlue;
 	final T widget;
 	
-	public  AnimationBgColor(T widget, WidgetColor start, WidgetColor end) {
+	public  AnimationBgColor(T widget, EColor start, EColor end) {
 		this.widget = widget;
 		this.sRed = start.getRed();
 		this.sGreen = start.getGreen();
