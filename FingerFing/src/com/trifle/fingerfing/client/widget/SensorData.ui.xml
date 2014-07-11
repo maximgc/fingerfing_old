@@ -13,6 +13,15 @@
 			<g:Label text=" MS" ui:field="meanSpeed"/>
 			<g:Image width="20px" height="1px"/>
 			<g:Label text=" ED" ui:field="errorDensity"/>
+			<g:Image width="20px" height="1px"/>
+			<g:Label text=" FMS" ui:field="fullMeanSpeed"/>
+			<g:Image width="20px" height="1px"/>
+			<g:Label text=" FC" ui:field="count"/>
+			<g:Image width="20px" height="1px"/>
+			<g:Label text=" MD" ui:field="meanDeviation"/>
+			<g:Image width="20px" height="1px"/>
+			<g:Label text=" CD" ui:field="curDeviation"/>
+
 		</g:HorizontalPanel>
 	</g:HTMLPanel>
 </ui:UiBinder> 

@@ -1,11 +1,12 @@
-package com.trifle.fingerfing.client;
+package com.trifle.fingerfing.client.calcs;
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 public class StatCalcLastSteps implements StatCalc {
 
-	private int stepCount;
+	private int count;
+	private int countErr;
 	private long sumTime;
 	private long sumObservTime;
 	private long lastTimestamp;
@@ -17,14 +18,14 @@ public class StatCalcLastSteps implements StatCalc {
 	}
 
 	public StatCalcLastSteps(int stepCount) {
-		this.stepCount = stepCount;
+		this.count = stepCount;
 		histStepTime = new LinkedList<Long>();
 	}
 
 	@Override
 	public void addRecord(long timestamp, int eval) {
 		lastStepTime = lastTimestamp == 0 ? 1000 : timestamp - lastTimestamp;
-		if (histStepTime.size() >= stepCount) {
+		if (histStepTime.size() >= count) {
 			long l = histStepTime.remove();
 			sumObservTime -= l;
 		}
@@ -36,7 +37,7 @@ public class StatCalcLastSteps implements StatCalc {
 
 	@Override
 	public long calcMeanTime() {
-		return sumObservTime / stepCount;
+		return sumObservTime / count;
 	}
 
 	@Override
@@ -51,7 +52,7 @@ public class StatCalcLastSteps implements StatCalc {
 
 	@Override
 	public String toDebugString() {
-		return " stepCount="+stepCount+
+		return " stepCount="+count+
 				" sumTime="+sumTime+
 				" sumObservTime="+sumObservTime+
 				" lastTimestamp="+lastTimestamp+
@@ -60,7 +61,18 @@ public class StatCalcLastSteps implements StatCalc {
 	}
 
 	@Override
-	public long calcMeanSpeed() {
+	public long calcCurrentMeanSpeed() {
 		return 60000/calcMeanTime();
 	}
+	
+	@Override
+	public long calcFullMeanSpeed() {
+		return 60000/(sumTime/count);
+	}
+
+	@Override
+	public long calcCount() {
+		return count;
+	}
+
 }
