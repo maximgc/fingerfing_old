@@ -16,9 +16,9 @@ import com.google.gwt.event.dom.client.KeyUpHandler;
 import com.google.gwt.user.client.ui.FocusPanel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
-import com.trifle.fingerfing.client.calcs.StatCalc;
 import com.trifle.fingerfing.client.calcs.StatCalcConvergent;
 import com.trifle.fingerfing.client.widget.KeyboardWidget;
+import com.trifle.fingerfing.client.widget.KeyboardWidgetUIFlex;
 import com.trifle.fingerfing.client.widget.SensorData;
 import com.trifle.fingerfing.client.widget.effect.EColor;
 import com.trifle.fingerfing.client.widget.effect.Effect;
@@ -40,7 +40,7 @@ public class FingerFing implements EntryPoint {
 
 	public void onModuleLoad() {
 		final Label errorLabel = new Label();
-		final KeyboardWidget keyWidget = new KeyboardWidget();
+		final KeyboardWidget keyWidget = new KeyboardWidgetUIFlex();
 		final FocusPanel fp = new FocusPanel();
 		final SensorData sd = new SensorData();
 
@@ -58,7 +58,7 @@ public class FingerFing implements EntryPoint {
 		final Effect effectEnable = new EffectTransparent(1);
 
 		@SuppressWarnings("serial")
-		final List<Set<NativeKey>> setNk = new ArrayList<Set<NativeKey>>() {
+		final List<Set<NativeKey>> exisizeSets = new ArrayList<Set<NativeKey>>() {
 			{
 				add(EnumSet.of(NativeKey.KEY_F, NativeKey.KEY_J,
 						NativeKey.KEY_G, NativeKey.KEY_H));
@@ -73,7 +73,7 @@ public class FingerFing implements EntryPoint {
 		rnd = new Random();
 		step = 0;
 		cpress = 0;
-		curList = new ArrayList<NativeKey>(setNk.get(step));
+		curList = new ArrayList<NativeKey>(exisizeSets.get(step));
 		curCount = curList.size();
 		curKey = curList.get(rnd.nextInt(curCount));
 		keyWidget.setEffectAll(curList, effectEnable);
@@ -90,6 +90,7 @@ public class FingerFing implements EntryPoint {
 		final StatCalcConvergent statCalc = new StatCalcConvergent();
 		final Evaluator ev = new Evaluator();
 
+		
 		fp.addKeyDownHandler(new KeyDownHandler() {
 			@Override
 			public void onKeyDown(KeyDownEvent event) {
@@ -108,12 +109,12 @@ public class FingerFing implements EntryPoint {
 						statCalc.calcDeviation());
 				System.out.println(60000 / statCalc.calcMeanTime());
 				System.out.println(statCalc.toDebugString());
-				if (cpress++ > 20 && step < setNk.size() - 1) {
+				if (cpress++ > 20 && step < exisizeSets.size() - 1) {
 					cpress = 0;
 					step++;
-					curList.addAll(setNk.get(step));
+					curList.addAll(exisizeSets.get(step));
 					curCount = curList.size();
-					keyWidget.setEffectAll(setNk.get(step), effectEnable);
+					keyWidget.setEffectAll(exisizeSets.get(step), effectEnable);
 				}
 			}
 		});
@@ -130,4 +131,16 @@ public class FingerFing implements EntryPoint {
 		});
 		fp.setFocus(true);
 	}
+	
+	
+	
+//	fp.addKeyDownHandler(new KeyDownHandler() {
+//	
+//	@Override
+//	public void onKeyDown(KeyDownEvent event) {
+//		System.out.println("NativeKey."+NativeKey.getByNativeCode(event.getNativeKeyCode()).toString()+", ");
+//		
+//	}
+//});
+
 }
