@@ -1,6 +1,5 @@
 package com.trifle.fingerfing.client.widget;
 
-import java.util.ArrayList;
 import java.util.EnumMap;
 import java.util.EnumSet;
 import java.util.HashSet;
@@ -64,8 +63,6 @@ public class KeyboardWidgetUIFlex extends Composite implements KeyboardWidget {
 		}
 	}
 
-	private List<Button> keys;
-
 	private final int LEFT_INDENT = 10;
 	private final int TOP_INDENT = 10;
 	private final int WIDTH_KEY = 45;
@@ -112,7 +109,6 @@ public class KeyboardWidgetUIFlex extends Composite implements KeyboardWidget {
 					NativeKey.KEY_MENU, NativeKey.KEY_CTRL } };
 
 	private void placeKeys() {
-		keys = new ArrayList<Button>();
 		Button b;
 		Label l;
 

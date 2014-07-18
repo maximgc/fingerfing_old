@@ -4,15 +4,15 @@ public interface StatCalc {
 
 	public abstract void addRecord(long timestamp, int eval);
 
-	public abstract long calcMeanTime();
+	public abstract long calcConvergentMeanTime();
 	
-	public abstract long calcCurrentMeanSpeed();
+	public abstract long calcConvergentMeanSpeed();
 	
 	public abstract long calcFullMeanSpeed();
 	
 	public abstract long calcAllTime();
 	
-	public abstract double calcDensityError();
+	public abstract double calcFullDensityError();
 	
 	public abstract long calcCount();
 

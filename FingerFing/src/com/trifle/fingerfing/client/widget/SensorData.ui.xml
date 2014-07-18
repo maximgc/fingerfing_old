@@ -1,27 +1,92 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.trifle.fingerfing.client.widget">
 	<ui:style>
 	.important {
 		font-weight: bold;
 	}
 	</ui:style>
-	<g:HTMLPanel>
-		<g:HorizontalPanel>
-			<g:Label text=" AT" ui:field="allTime"/>
-			<g:Image width="20px" height="1px"/>
-			<g:Label text=" MS" ui:field="meanSpeed"/>
-			<g:Image width="20px" height="1px"/>
-			<g:Label text=" ED" ui:field="errorDensity"/>
-			<g:Image width="20px" height="1px"/>
-			<g:Label text=" FMS" ui:field="fullMeanSpeed"/>
-			<g:Image width="20px" height="1px"/>
-			<g:Label text=" FC" ui:field="count"/>
-			<g:Image width="20px" height="1px"/>
-			<g:Label text=" MD" ui:field="meanDeviation"/>
-			<g:Image width="20px" height="1px"/>
-			<g:Label text=" CD" ui:field="curDeviation"/>
-
-		</g:HorizontalPanel>
-	</g:HTMLPanel>
+		<g:VerticalPanel>
+			<g:Cell horizontalAlignment="ALIGN_RIGHT">
+				<g:Grid>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Общее время:" />
+					</g:customCell>
+					<g:customCell>
+						<p1:ProgressBarNew ui:field="pgFullTime" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="fullTime" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Попытки:" />
+					</g:customCell>
+					<g:customCell>
+						<p1:ProgressBarNew ui:field="pgFullCount" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="fullCount" />
+					</g:customCell>
+				</g:row> 
+				<g:row>
+					<g:customCell>
+						<g:Label text="Правильно:" />
+					</g:customCell>
+					<g:customCell>
+						<p1:ProgressBarNew ui:field="pgSuccessDensity" range="10" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="fullSuccessDensity" />
+					</g:customCell>
+				</g:row>
+<!-- 				<g:row> -->
+<!-- 					<g:customCell> -->
+<!-- 						<g:Label text="Общ. средняя скорость:" /> -->
+<!-- 					</g:customCell> -->
+<!-- 					<g:customCell> -->
+<!-- 						<p1:ProgressBarNew /> -->
+<!-- 					</g:customCell> -->
+<!-- 					<g:customCell> -->
+<!-- 						<g:Label text="" ui:field="fullMeanSpeed" /> -->
+<!-- 					</g:customCell> -->
+<!-- 				</g:row> -->
+				<g:row>
+					<g:customCell>
+						<g:Label text="Скорость:" />
+					</g:customCell>
+					<g:customCell>
+						<p1:ProgressBarNew ui:field="pgMeanSpeed"  range="2000"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lastMeanSpeed" />
+					</g:customCell>
+				</g:row>
+<!-- 				<g:row> -->
+<!-- 					<g:customCell> -->
+<!-- 						<g:Label text="Последнее отклонение от темпа:" /> -->
+<!-- 					</g:customCell> -->
+<!-- 					<g:customCell> -->
+<!-- 						<p1:ProgressBarNew /> -->
+<!-- 					</g:customCell> -->
+<!-- 					<g:customCell> -->
+<!-- 						<g:Label text="" ui:field="curDeviation" /> -->
+<!-- 					</g:customCell> -->
+<!-- 				</g:row> -->
+				<g:row>
+					<g:customCell>
+						<g:Label text="Темп:" />
+					</g:customCell>
+					<g:customCell>
+						<p1:ProgressBarNew ui:field="pgTemp"  range="10"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lastMeanDeviation" />
+					</g:customCell>
+				</g:row>
+			</g:Grid>
+			</g:Cell>
+		</g:VerticalPanel>
 </ui:UiBinder> 

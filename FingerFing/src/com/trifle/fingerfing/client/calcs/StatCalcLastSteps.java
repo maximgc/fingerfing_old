@@ -36,7 +36,7 @@ public class StatCalcLastSteps implements StatCalc {
 	}
 
 	@Override
-	public long calcMeanTime() {
+	public long calcConvergentMeanTime() {
 		return sumObservTime / count;
 	}
 
@@ -46,7 +46,7 @@ public class StatCalcLastSteps implements StatCalc {
 	}
 
 	@Override
-	public double calcDensityError() {
+	public double calcFullDensityError() {
 		return 0.0;
 	}
 
@@ -61,8 +61,8 @@ public class StatCalcLastSteps implements StatCalc {
 	}
 
 	@Override
-	public long calcCurrentMeanSpeed() {
-		return 60000/calcMeanTime();
+	public long calcConvergentMeanSpeed() {
+		return 60000/calcConvergentMeanTime();
 	}
 	
 	@Override

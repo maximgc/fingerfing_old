@@ -11,20 +11,27 @@ public class SensorData extends Composite {
 
 	private static SensorDataUiBinder uiBinder = GWT
 			.create(SensorDataUiBinder.class);
+
 	@UiField
-	Label errorDensity;
+	Label fullCount;
 	@UiField
-	Label meanSpeed;
+	Label fullSuccessDensity;
 	@UiField
-	Label allTime;
+	Label fullTime;
+//	@UiField
+//	Label fullMeanSpeed;
 	@UiField
-	Label fullMeanSpeed;
+	Label lastMeanSpeed;
 	@UiField
-	Label count;
-	@UiField
-	Label meanDeviation;
-	@UiField
-	Label curDeviation;
+	Label lastMeanDeviation;
+//	@UiField
+//	Label curDeviation;
+	
+	@UiField ProgressBar pgSuccessDensity;
+	@UiField ProgressBarNew pgFullTime;
+	@UiField ProgressBarNew pgFullCount;
+	@UiField ProgressBarNew pgMeanSpeed;
+	@UiField ProgressBarNew pgTemp;
 
 	interface SensorDataUiBinder extends UiBinder<Widget, SensorData> {
 	}
@@ -36,13 +43,13 @@ public class SensorData extends Composite {
 	public void setData(String allTime, String meanSpeed, String errorDensity,
 			String fullMeanSpeed, String count, String meanDeviation,
 			String curDeviation) {
-		this.allTime.setText(" AT:" + allTime);
-		this.meanSpeed.setText(" MS:" + meanSpeed);
-		this.errorDensity.setText(" ED:" + errorDensity);
-		this.fullMeanSpeed.setText(" FMS:" + fullMeanSpeed);
-		this.count.setText(" MC:" + count);
-		this.meanDeviation.setText(" MD:" + meanDeviation);
-		this.curDeviation.setText(" CD:" + curDeviation);
+		this.fullTime.setText(allTime);
+		this.lastMeanSpeed.setText(meanSpeed);
+		this.fullSuccessDensity.setText(errorDensity);
+//		this.fullMeanSpeed.setText(fullMeanSpeed);
+		this.fullCount.setText(count);
+		this.lastMeanDeviation.setText(meanDeviation);
+//		this.curDeviation.setText(curDeviation);
 	}
 
 	public void setData(long calcAllTime, long calcMeanSpeed,
@@ -52,6 +59,9 @@ public class SensorData extends Composite {
 				String.valueOf(calcDensityError),
 				String.valueOf(fullMeanSpeed), String.valueOf(count),
 				String.valueOf(meanDeviation), String.valueOf(curDeviation));
+		pgSuccessDensity.setPosition((int)(calcDensityError*10));
+		pgMeanSpeed.setPosition((int)(calcMeanSpeed));
+		pgTemp.setPosition((int)(meanDeviation*10));
 	}
 
 }

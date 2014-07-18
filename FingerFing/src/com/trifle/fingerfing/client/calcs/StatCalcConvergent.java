@@ -15,22 +15,23 @@ public class StatCalcConvergent implements StatCalc {
 		lastStepTime = lastTimestamp == 0 ? 1000 : timestamp - lastTimestamp;
 		sumTime += lastStepTime;
 		countSuccess += eval;
-		convergentTime = (convergentTime + lastStepTime) / 2;
-		convergentDeviation = (convergentDeviation + calcDeviation()) / 2;
+		convergentTime = (convergentTime*75 + lastStepTime*25)/100; // / 2;
+		//FIXME при коэф. .75 .25 и .75 .25 темп может выйти в минус (задержка после скорости 1800 например:-1.2)
+		convergentDeviation = (convergentDeviation*0.25 + calcStepDeviation()*0.75) ; /// 2; 
 		lastTimestamp = timestamp;
 		count++;
 	}
 
 	@Override
-	public long calcMeanTime() {
+	public long calcConvergentMeanTime() {
 		return convergentTime;
 	}
 	
-	public double calcMeanDeviation(){
-		return convergentDeviation;
+	public double calcConvergentMeanDeviation(){
+		return 1.0 - convergentDeviation;
 	}
 
-	public double calcDeviation(){
+	public double calcStepDeviation(){
 		return Math.abs((double)convergentTime-lastStepTime)/convergentTime;
 	}
 
@@ -40,8 +41,8 @@ public class StatCalcConvergent implements StatCalc {
 	}
 
 	@Override
-	public double calcDensityError() {
-		return (double) countSuccess / count;
+	public double calcFullDensityError() {
+		return (double)countSuccess / count;
 	}
 
 	@Override
@@ -53,8 +54,8 @@ public class StatCalcConvergent implements StatCalc {
 	}
 
 	@Override
-	public long calcCurrentMeanSpeed() {
-		return 60000 / calcMeanTime();
+	public long calcConvergentMeanSpeed() {
+		return 60000 / calcConvergentMeanTime();
 	}
 
 	@Override
