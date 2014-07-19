@@ -6,7 +6,7 @@ import java.util.Queue;
 public class StatCalcLastSteps implements StatCalc {
 
 	private int count;
-	private int countErr;
+	private int countSuccess;
 	private long sumTime;
 	private long sumObservTime;
 	private long lastTimestamp;
@@ -47,7 +47,7 @@ public class StatCalcLastSteps implements StatCalc {
 
 	@Override
 	public double calcFullDensityError() {
-		return 0.0;
+		return (double)countSuccess / count;
 	}
 
 	@Override
