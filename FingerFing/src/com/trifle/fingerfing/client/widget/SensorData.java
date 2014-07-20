@@ -32,6 +32,11 @@ public class SensorData extends Composite {
 	@UiField ProgressBarNew pgFullCount;
 	@UiField ProgressBarNew pgMeanSpeed;
 	@UiField ProgressBarNew pgTemp;
+	@UiField Label mForTemp;
+	@UiField Label mForSpeed;
+	@UiField Label mForSuccess;
+	@UiField Label mForCorrect;
+	@UiField Label mScore;
 
 	interface SensorDataUiBinder extends UiBinder<Widget, SensorData> {
 	}
@@ -62,6 +67,14 @@ public class SensorData extends Composite {
 		pgSuccessDensity.setPosition((int)(calcDensityError*10));
 		pgMeanSpeed.setPosition((int)(calcMeanSpeed));
 		pgTemp.setPosition((int)(meanDeviation*10));
+	}
+	
+	public void setMultiplers(long score, double forSpeed, double forTemp, double forCorrect, double forSuccess){
+		mForSpeed.setText(String.valueOf(forSpeed));
+		mForTemp.setText(String.valueOf(forTemp));
+		mForCorrect.setText(String.valueOf(forCorrect));
+		mForSuccess.setText(String.valueOf(forSuccess));
+		mScore.setText(String.valueOf(score));
 	}
 
 }

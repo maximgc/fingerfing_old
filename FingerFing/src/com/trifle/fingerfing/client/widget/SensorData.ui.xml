@@ -17,6 +17,9 @@
 						<p1:ProgressBarNew ui:field="pgFullTime" />
 					</g:customCell>
 					<g:customCell>
+						<g:Label text="New Label" ui:field="mScore"/>
+					</g:customCell>
+					<g:customCell>
 						<g:Label text="" ui:field="fullTime" />
 					</g:customCell>
 				</g:row>
@@ -28,6 +31,9 @@
 						<p1:ProgressBarNew ui:field="pgFullCount" />
 					</g:customCell>
 					<g:customCell>
+						<g:Label text="New Label" ui:field="mForCorrect"/>
+					</g:customCell>
+					<g:customCell>
 						<g:Label text="" ui:field="fullCount" />
 					</g:customCell>
 				</g:row> 
@@ -37,6 +43,9 @@
 					</g:customCell>
 					<g:customCell>
 						<p1:ProgressBarNew ui:field="pgSuccessDensity" range="10" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="New Label" ui:field="mForSuccess"/>
 					</g:customCell>
 					<g:customCell>
 						<g:Label text="" ui:field="fullSuccessDensity" />
@@ -61,6 +70,9 @@
 						<p1:ProgressBarNew ui:field="pgMeanSpeed"  range="2000"/>
 					</g:customCell>
 					<g:customCell>
+						<g:Label text="New Label" ui:field="mForSpeed"/>
+					</g:customCell>
+					<g:customCell>
 						<g:Label text="" ui:field="lastMeanSpeed" />
 					</g:customCell>
 				</g:row>
@@ -81,6 +93,9 @@
 					</g:customCell>
 					<g:customCell>
 						<p1:ProgressBarNew ui:field="pgTemp"  range="10"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="New Label" ui:field="mForTemp"/>
 					</g:customCell>
 					<g:customCell>
 						<g:Label text="" ui:field="lastMeanDeviation" />

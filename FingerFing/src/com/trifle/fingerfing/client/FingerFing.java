@@ -10,6 +10,7 @@ import com.google.gwt.event.dom.client.KeyUpHandler;
 import com.google.gwt.user.client.ui.FocusPanel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
+import com.trifle.fingerfing.client.calcs.BonusMultiplier;
 import com.trifle.fingerfing.client.calcs.StatCalcConvergent;
 import com.trifle.fingerfing.client.lesson.ExerciseController;
 import com.trifle.fingerfing.client.widget.Effects;
@@ -51,7 +52,8 @@ public class FingerFing implements EntryPoint {
 		keyWidget.setEffect(ex.getExerciseKey(), Effects.effectExpect);
 
 		final StatCalcConvergent statCalc = new StatCalcConvergent();
-
+		final BonusMultiplier bm = new BonusMultiplier();
+		
 		fp.addKeyDownHandler(new KeyDownHandler() {
 			@Override
 			public void onKeyDown(KeyDownEvent event) {
@@ -63,11 +65,21 @@ public class FingerFing implements EntryPoint {
 				statCalc.addRecord(System.currentTimeMillis(),
 						ex.getLastEvaluate());
 
+				bm.nextDate(statCalc.calcConvergentMeanSpeed(),
+						statCalc.calcConvergentMeanDeviation(),
+						statCalc.calcFullDensitySuccess(), ex.getLastEvaluate());
+
 				sd.setData(statCalc.calcAllTime(),
 						statCalc.calcConvergentMeanSpeed(),
-						statCalc.calcFullDensityError(),
-						statCalc.calcFullMeanSpeed(), statCalc.calcCount(),
-						statCalc.calcConvergentMeanDeviation(), statCalc.calcStepDeviation());
+						statCalc.calcFullDensitySuccess(),
+						statCalc.calcFullMeanSpeed(), 
+						statCalc.calcCount(),
+						statCalc.calcConvergentMeanDeviation(), 
+						statCalc.calcStepDeviation());
+				
+				sd.setMultiplers((long)(statCalc.calcLastSpeed()*bm.getMultiplier()), bm.getForSpeed(), bm.getForTemp(), bm.getForCorrect(), bm.getForSuccess());
+				
+				
 				
 				keyWidget.setEffectAll(Effects.effectDisable);
 				keyWidget.setEffectAll(ex.getWorkingSet(), Effects.effectEnable); //FIXME Очень неэффективно

@@ -41,7 +41,7 @@ public class StatCalcConvergent implements StatCalc {
 	}
 
 	@Override
-	public double calcFullDensityError() {
+	public double calcFullDensitySuccess() {
 		return (double)countSuccess / count;
 	}
 
@@ -66,6 +66,10 @@ public class StatCalcConvergent implements StatCalc {
 	@Override
 	public long calcCount() {
 		return count;
+	}
+	@Override
+	public long calcLastSpeed() {
+		return 60000 / lastStepTime;
 	}
 
 }

@@ -12,10 +12,12 @@ public interface StatCalc {
 	
 	public abstract long calcAllTime();
 	
-	public abstract double calcFullDensityError();
+	public abstract double calcFullDensitySuccess();
 	
 	public abstract long calcCount();
 
 	public abstract String toDebugString();
+
+	public abstract long calcLastSpeed();
 
 }
