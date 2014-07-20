@@ -1,7 +1,7 @@
 {"workingSets":[
-	{"methodSelectName":"order", "typesCount":"1000", "keys":["KEY_H"]},
-	{"methodSelectName":"order", "typesCount":"4", "keys":["KEY_H","KEY_J"]},
-	{"methodSelectName":"random", "keys":["KEY_F","KEY_G"]},
+	{"methodSelectName":"order", "finalCount":"1", "keys":["KEY_H"]},
+	{"methodSelectName":"order", "finalCount":"4", "keys":["KEY_J", "KEY_H"]},
+	{"methodSelectName":"random", "finalScore":"1000", "keys":["KEY_F","KEY_G"]},
 	{"methodSelectName":"random", "keys":["KEY_F","KEY_G","KEY_H","KEY_J"]},
 	{"methodSelectName":"random", "keys":["KEY_H","KEY_J","KEY_U"]},
 	{"methodSelectName":"order", "keys":["KEY_F","KEY_G","KEY_R"]},

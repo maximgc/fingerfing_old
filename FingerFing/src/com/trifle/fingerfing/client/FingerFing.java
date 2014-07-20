@@ -57,11 +57,16 @@ public class FingerFing implements EntryPoint {
 		fp.addKeyDownHandler(new KeyDownHandler() {
 			@Override
 			public void onKeyDown(KeyDownEvent event) {
+				
 				NativeKey keyDown = NativeKey.getByNativeCode(event
 						.getNativeKeyCode());
+				
 				keyWidget.setEffect(ex.getExerciseKey(), Effects.effectUp); 
-				ex.setAnswerKey(keyDown);
+				
+				ex.setAnswerKey(keyDown); //FIXME баг при finalCount=1 или 2, новый workingSet почемуто не отображется
+				
 				keyWidget.setEffect(keyDown, Effects.effectPress);
+				
 				statCalc.addRecord(System.currentTimeMillis(),
 						ex.getLastEvaluate());
 

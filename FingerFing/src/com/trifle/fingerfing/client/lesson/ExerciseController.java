@@ -3,8 +3,6 @@ package com.trifle.fingerfing.client.lesson;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Random;
-
 import com.google.gwt.core.shared.GWT;
 import com.google.web.bindery.autobean.shared.AutoBean;
 import com.google.web.bindery.autobean.shared.AutoBeanCodex;
@@ -18,6 +16,7 @@ public class ExerciseController {
 
 	private int curStep = -1;
 	private int curKeyStep = -1;
+	private int curScore;
 	private WorkingSets wSets;
 	private List<NativeKey> curKeys;
 	private NativeKey exerciseKey;
@@ -25,15 +24,15 @@ public class ExerciseController {
 	private Evaluator evaluator;
 	private int lastEvaluate;
 	private MethodKeySelect curMethodSelect;
-	private int curTypesCount;
-	
+	private int curFinalCount;
+	private long curFinalScore;
+
 	public ExerciseController() {
 		init();
 	}
 
 	private void init() {
 		initWorkingSets(FFResources.INST.getWorkingSets().getText());
-		new Random();
 		evaluator = new Evaluator();
 		goNextWorkingSet();
 		goNextExerciseKey();
@@ -43,7 +42,7 @@ public class ExerciseController {
 		BeanFactory factory = GWT.create(BeanFactory.class);
 		wSets = AutoBeanCodex.decode(factory, WorkingSets.class, jsonText).as();
 	}
-	
+
 	@SuppressWarnings("unused")
 	private void initWorkingSets() {
 		// простой пример хардкодного набора заданий
@@ -72,28 +71,43 @@ public class ExerciseController {
 		System.out.println(json);
 	}
 
-
 	private void goNextExerciseKey() {
-		if (++curKeyStep >= curTypesCount) {
+		System.out.println("before curFinalCount: " + curFinalCount + ", curKeyStep: "
+				+ curKeyStep + ", curFinalScore: " + curFinalScore
+				+ ", curFinalScore: " + curFinalScore);
+		if ((curFinalCount != 0 && ++curKeyStep >= curFinalCount)
+				|| (curFinalScore != 0 && ++curScore >= curFinalScore)) {
 			curKeyStep = 0;
+			curScore = 0;
 			goNextWorkingSet();
 		}
-		exerciseKey = curMethodSelect.select(curKeys); // curKeys.get(rnd.nextInt(curKeys.size()));
+		exerciseKey = curMethodSelect.select(curKeys);
+		System.out.println("after curFinalCount: " + curFinalCount + ", curKeyStep: "
+				+ curKeyStep + ", curFinalScore: " + curFinalScore
+				+ ", curScore: " + curScore);
 	}
 
 	private void goNextWorkingSet() {
 		if (curStep < wSets.getWorkingSets().size() - 1) {
 			curStep++;
 			Keys keys = wSets.getWorkingSets().get(curStep);
-			
+
 			curKeys = keys.getKeys();
+			curFinalCount = 0;
+			curFinalScore = 0;
 			
-			if (keys.getTypesCount() == null) {
-				curTypesCount = keys.getKeys().size();
+			
+			if (keys.getFinalScore() == null && keys.getFinalCount() == null) {
+				curFinalCount = keys.getKeys().size();
 			} else {
-				curTypesCount = Integer.parseInt(keys.getTypesCount());
+				if (keys.getFinalCount() != null) {
+					curFinalCount = Integer.parseInt(keys.getFinalCount());
+				}
+				if (keys.getFinalScore() != null) {
+					curFinalScore = Integer.parseInt(keys.getFinalScore());
+				}
 			}
-			
+
 			switch (keys.getMethodSelectName()) {
 			case "order":
 				curMethodSelect = new MethodKeySelectOrder();
@@ -130,12 +144,9 @@ public class ExerciseController {
 	public int getLastEvaluate() {
 		return lastEvaluate;
 	}
-	
-	
-	
 
 	public static interface BeanFactory extends AutoBeanFactory {
-		
+
 		AutoBean<WorkingSets> makeList();
 
 		AutoBean<Keys> makeSet();
@@ -148,11 +159,15 @@ public class ExerciseController {
 	}
 
 	public static interface Keys {
-		
-		String getTypesCount();
-		
-		void setTypesCount(String c);
-		
+
+		String getFinalScore();
+
+		void setFinalScore(String c);
+
+		String getFinalCount();
+
+		void setFinalCount(String c);
+
 		String getMethodSelectName();
 
 		void setMethodSelectName(String m);
