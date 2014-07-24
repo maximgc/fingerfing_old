@@ -10,8 +10,8 @@ public interface FFResources extends ClientBundle {
 	
 	@Source("WorkingSets1.json")
 	public TextResource getWorkingSets();
-//
-//	@Source("CharLayoutSK.json")
-//	public TextResource getCharLayoutSK();
+
+	@Source("AlternativeKeyLayoutRU.json")
+	public TextResource getAlternativeKeyLayoutRU();
 
 }

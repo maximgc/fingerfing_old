@@ -12,9 +12,12 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.trifle.fingerfing.client.calcs.BonusMultiplier;
 import com.trifle.fingerfing.client.calcs.StatCalcConvergent;
+import com.trifle.fingerfing.client.json.BeanManager;
 import com.trifle.fingerfing.client.lesson.ExerciseController;
+import com.trifle.fingerfing.client.resources.FFResources;
 import com.trifle.fingerfing.client.widget.Effects;
 import com.trifle.fingerfing.client.widget.ExcerciseProgress;
+import com.trifle.fingerfing.client.widget.JSONConstructorWidget;
 import com.trifle.fingerfing.client.widget.KeyboardWidget;
 import com.trifle.fingerfing.client.widget.KeyboardWidgetUIFlex;
 import com.trifle.fingerfing.client.widget.SensorIndicator;
@@ -33,15 +36,22 @@ public class FingerFing implements EntryPoint {
 		final SensorIndicator sensorIndicator = new SensorIndicator();
 		final ExcerciseProgress ep = new ExcerciseProgress();
 
+		BeanManager bm = new BeanManager();
+		final JSONConstructorWidget jsonC = new JSONConstructorWidget(bm);
+		
 		fp.add(keyWidget);
+		keyWidget.setAlternateveKeyLayout(new AlternativeKeyLayout(bm
+				.decodeLabelTextMap(
+						FFResources.INST.getAlternativeKeyLayoutRU().getText())));		
 
 		RootPanel.get("mainWidgetField").add(ep);
 		RootPanel.get("mainWidgetField").add(sensorIndicator);
 		RootPanel.get("mainWidgetField").add(fp);
+		RootPanel.get("mainWidgetField").add(jsonC);
 		RootPanel.get("errorWidgetField").add(errorLabel);
 
-		final ExerciseController ex = new ExerciseController(new Evaluator(), new StatCalcConvergent(), new BonusMultiplier());
-
+		final ExerciseController ex = new ExerciseController(bm.decodeWorkingSets(FFResources.INST.getWorkingSets().getText()), new Evaluator(), new StatCalcConvergent(), new BonusMultiplier());
+		
 		fp.addClickHandler(new ClickHandler() {
 
 			@Override
@@ -49,7 +59,7 @@ public class FingerFing implements EntryPoint {
 				fp.setFocus(true);
 			}
 		});
-
+				
 		keyWidget.setEffectAll(Effects.effectDisable);
 		keyWidget.setEffectAll(ex.getWorkingSet(), Effects.effectEnable);
 		keyWidget.setEffect(ex.getExerciseKey(), Effects.effectExpect);
@@ -78,7 +88,6 @@ public class FingerFing implements EntryPoint {
 				ep.setType(ex.getType());
 				ep.setFinalValue(ex.getFinalValue());
 				ep.setCurValue(ex.getCurValue());
-				
 				keyWidget.setEffect(keyDown, Effects.effectPress);
 				keyWidget.setEffectAll(Effects.effectDisable);
 				keyWidget.setEffectAll(ex.getWorkingSet(), Effects.effectEnable); //FIXME Очень неэффективно

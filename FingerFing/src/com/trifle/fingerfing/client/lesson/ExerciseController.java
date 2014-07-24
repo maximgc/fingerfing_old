@@ -1,19 +1,11 @@
 package com.trifle.fingerfing.client.lesson;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-import com.google.gwt.core.shared.GWT;
-import com.google.web.bindery.autobean.shared.AutoBean;
-import com.google.web.bindery.autobean.shared.AutoBeanCodex;
-import com.google.web.bindery.autobean.shared.AutoBeanFactory;
-import com.google.web.bindery.autobean.shared.AutoBeanUtils;
 import com.trifle.fingerfing.client.Evaluator;
 import com.trifle.fingerfing.client.NativeKey;
 import com.trifle.fingerfing.client.calcs.BonusMultiplier;
 import com.trifle.fingerfing.client.calcs.StatCalc;
-import com.trifle.fingerfing.client.resources.FFResources;
 
 public class ExerciseController {
 
@@ -21,8 +13,6 @@ public class ExerciseController {
 	private StatCalc sc;
 	private BonusMultiplier bm;
 	
-
-
 	private int curStep = -1;
 	private int fullCount = -1;
 	private WorkingSets wSets;
@@ -40,7 +30,8 @@ public class ExerciseController {
 	private long finalScore;
 
 
-	public ExerciseController(Evaluator ev, StatCalc sc, BonusMultiplier bm) {
+	public ExerciseController(WorkingSets wSets, Evaluator ev, StatCalc sc, BonusMultiplier bm) {
+		this.wSets = wSets;
 		this.sc = sc;
 		this.bm = bm;
 		this.ev = ev;
@@ -49,46 +40,11 @@ public class ExerciseController {
 	
 	@SuppressWarnings("unused")
 	private ExerciseController() {
-		// TODO Auto-generated constructor stub
 	}
 
 	private void init() {
-		initWorkingSets(FFResources.INST.getWorkingSets().getText());
 		goNextWorkingSet();
 		goNextExerciseKey();
-	}
-
-	private void initWorkingSets(String jsonText) {
-		BeanFactory factory = GWT.create(BeanFactory.class);
-		wSets = AutoBeanCodex.decode(factory, WorkingSets.class, jsonText).as();
-	}
-
-	@SuppressWarnings("unused")
-	private void initWorkingSets() {
-		// простой пример хардкодного набора заданий
-		NativeKey[][] wsArray = {
-				{ NativeKey.KEY_F, NativeKey.KEY_J, NativeKey.KEY_G,
-						NativeKey.KEY_H },
-				{ NativeKey.KEY_R, NativeKey.KEY_T, NativeKey.KEY_Y,
-						NativeKey.KEY_U },
-				{ NativeKey.KEY_V, NativeKey.KEY_B, NativeKey.KEY_N,
-						NativeKey.KEY_M } };
-
-		BeanFactory factory = GWT.create(BeanFactory.class);
-
-		wSets = factory.makeList().as();
-		wSets.setWorkingSets(new ArrayList<Keys>());
-
-		for (NativeKey[] s : wsArray) {
-			Keys ws = factory.makeSet().as();
-			ws.setKeys(Arrays.asList(s));
-			wSets.getWorkingSets().add(ws);
-		}
-
-		String json = AutoBeanCodex.encode(AutoBeanUtils.getAutoBean(wSets))
-				.getPayload();
-
-//		System.out.println(json);
 	}
 
 	private void goNextExerciseKey() {
@@ -220,7 +176,6 @@ public class ExerciseController {
 		default:
 			return fullCount;
 		}
-		// return finalCount;
 	}
 
 	public long getFinalValue() {
@@ -232,7 +187,6 @@ public class ExerciseController {
 		default:
 			return finalCount;
 		}
-		// return finalScore;
 	}
 	
 	public int getType() {
@@ -241,14 +195,8 @@ public class ExerciseController {
 
 
 
-	public static interface BeanFactory extends AutoBeanFactory {
-
-		AutoBean<WorkingSets> makeList();
-
-		AutoBean<Keys> makeSet();
-	}
-
 	public static interface WorkingSets {
+	
 		List<Keys> getWorkingSets();
 
 		void setWorkingSets(List<Keys> l);

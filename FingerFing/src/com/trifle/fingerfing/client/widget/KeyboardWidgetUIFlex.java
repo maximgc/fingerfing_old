@@ -14,6 +14,7 @@ import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.Widget;
+import com.trifle.fingerfing.client.AlternativeKeyLayout;
 import com.trifle.fingerfing.client.IllegalNativeKey;
 import com.trifle.fingerfing.client.NativeKey;
 import com.trifle.fingerfing.client.widget.effect.Effect;
@@ -31,9 +32,10 @@ public class KeyboardWidgetUIFlex extends Composite implements KeyboardWidget {
 		initWidget(uiBinder.createAndBindUi(this));
 		placeKeys();
 	}
-
+	
 	@UiField
 	AbsolutePanel keysPanel;
+
 
 	@Override
 	public void setEffect(NativeKey n, Effect e) {
@@ -63,18 +65,6 @@ public class KeyboardWidgetUIFlex extends Composite implements KeyboardWidget {
 		}
 	}
 
-	private final int LEFT_INDENT = 10;
-	private final int TOP_INDENT = 10;
-	private final int WIDTH_KEY = 45;
-	private final int HEIGHT_KEY = 45;
-	private final int VERTICAL_SPACE = 6;
-	private final int HORIZONTAL_SPACE = 6;
-	private final int VERTICAL_SHIFT = 12;
-	// private final int HORIZONTAL_SHIFT = 7;
-
-	private final int LABEL_LEFT_SHIFT = 5;
-	private final int LABEL_TOP_SHIFT = 3;
-
 	private NativeKey[][] placeMap = {
 			{ NativeKey.KEY_GRAVE_ACCENT, NativeKey.KEY_1, NativeKey.KEY_2,
 					NativeKey.KEY_3, NativeKey.KEY_4, NativeKey.KEY_5,
@@ -87,7 +77,7 @@ public class KeyboardWidgetUIFlex extends Composite implements KeyboardWidget {
 					NativeKey.KEY_Y, NativeKey.KEY_U, NativeKey.KEY_I,
 					NativeKey.KEY_O, NativeKey.KEY_P,
 					NativeKey.KEY_SQ_BRACKET_OPEN,
-					NativeKey.KEY_SQ_BRACKET_CLOSE, NativeKey.KEY_BACKSLASH,
+					NativeKey.KEY_SQ_BRACKET_CLOSE, NativeKey.KEY_BACKSLASH
 			// NativeKey.KEY_ENTER,
 			},
 
@@ -107,6 +97,24 @@ public class KeyboardWidgetUIFlex extends Composite implements KeyboardWidget {
 			{ NativeKey.KEY_CTRL, NativeKey.KEY_WIN, NativeKey.KEY_ALT,
 					NativeKey.KEY_SPACE, NativeKey.KEY_ALT, NativeKey.KEY_WIN,
 					NativeKey.KEY_MENU, NativeKey.KEY_CTRL } };
+
+	private final int LEFT_INDENT = 10;
+	private final int TOP_INDENT = 10;
+	private final int WIDTH_KEY = 45;
+	private final int HEIGHT_KEY = 45;
+	private final int VERTICAL_SPACE = 6;
+	private final int HORIZONTAL_SPACE = 6;
+	private final int VERTICAL_SHIFT = 12;
+	// private final int HORIZONTAL_SHIFT = 7;
+
+	private final int LABEL_LEFT_SHIFT = 5;
+	private final int LABEL_TOP_SHIFT = 3;
+	private final int ALT_LABEL_LEFT_SHIFT = 20;
+	private final int ALT_LABEL_TOP_SHIFT = 23;
+
+	private NativeMap<Button> buttonMap = new NativeMap<Button>();
+	private NativeMap<Label> labelMap = new NativeMap<Label>();
+	private NativeMap<Label> altLabelMap = new NativeMap<Label>();
 
 	private void placeKeys() {
 		Button b;
@@ -137,9 +145,38 @@ public class KeyboardWidgetUIFlex extends Composite implements KeyboardWidget {
 		}
 	}
 
-	NativeMap<Button> buttonMap = new NativeMap<Button>();
-	NativeMap<Label> labelMap = new NativeMap<Label>();
+	private AlternativeKeyLayout alternateveKeyLayout;
+	
+	@Override
+	public AlternativeKeyLayout getAlternateveKeyLayout() {
+		return alternateveKeyLayout;
+	}
 
+	@Override
+	public void setAlternateveKeyLayout(AlternativeKeyLayout alternateveKeyLayout) {
+		this.alternateveKeyLayout = alternateveKeyLayout;
+		Label l;
+
+		for (int h = 0; h < placeMap.length; h++) {
+			for (int v = 0; v < placeMap[h].length; v++) {
+				if (alternateveKeyLayout.isDefineText(placeMap[h][v])) {
+					l = new Label(
+							alternateveKeyLayout.getLabelText(placeMap[h][v]));
+					l.setWordWrap(true);
+					l.setWidth(WIDTH_KEY + "px");
+					altLabelMap.addWidget(placeMap[h][v], l);
+					keysPanel.add(l, LEFT_INDENT + h * VERTICAL_SHIFT
+							+ (v * (VERTICAL_SPACE + WIDTH_KEY)) + WIDTH_KEY
+							- ALT_LABEL_LEFT_SHIFT, TOP_INDENT
+							+ (h * (HORIZONTAL_SPACE + HEIGHT_KEY))
+							+ HEIGHT_KEY - ALT_LABEL_TOP_SHIFT);
+				}
+			}
+		}
+	}
+
+	
+	
 	private class NativeMap<T extends Widget> {
 		private EnumMap<NativeKey, Set<T>> wMap = new EnumMap<NativeKey, Set<T>>(
 				NativeKey.class);

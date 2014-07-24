@@ -90,6 +90,7 @@ public enum NativeKey {
 	}
 
 	private String labelText;
+	private int nativeCode;
 
 	private NativeKey(int nativeCode) {
 		this(nativeCode, "");
@@ -97,11 +98,16 @@ public enum NativeKey {
 
 	private NativeKey(int nativeCode, String labelText) {
 		this.labelText = labelText;
+		this.nativeCode = nativeCode;
 		putKeyCode(Integer.valueOf(nativeCode), this);
 	}
 
 	public String getLabelText() {
 		return labelText;
+	}
+	
+	public int getNativeCode() {
+		return nativeCode;
 	}
 
 	public boolean isModificator() {

@@ -7579,3 +7579,772 @@ Compiling...
    Compilation completed in 0,00 seconds
 Removing invalidated units
 Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2801 units from cache.
+Compiling...
+   80% complete (ETR: 1 seconds)
+   80% complete (ETR: 1 seconds)
+   80% complete (ETR: 1 seconds)
+   80% complete (ETR: 1 seconds)
+   80% complete (ETR: 1 seconds)
+   80% complete (ETR: 1 seconds)
+   80% complete (ETR: 1 seconds)
+   80% complete (ETR: 1 seconds)
+   80% complete (ETR: 1 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 7,42 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183798623.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183798623.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183798623_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183799542.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183799542.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183799542_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183812105.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183812105.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183812105_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183827678.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183827678.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183827678_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183868869.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183868869.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183868869_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183869470.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183869470.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183869470_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183886550.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183886550.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183886550_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183890614.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183890614.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183890614_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183905219.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183905219.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183905219_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183946403.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183946403.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183946403_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183955843.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183955843.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183955843_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183957855.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183957855.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183957855_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183959862.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183959862.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183959862_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183996892.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183996892.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406183996892_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406184015882.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406184015882.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406184015882_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406184018043.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406184018043.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructor_JSONConstructorUiBinderImpl_designTime1406184018043_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2799 cached/archived units.  Used 2799 / 2802 units from cache.
+Compiling...
+   Compilation completed in 1,35 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185350591.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185350591.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185350591_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185351247.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185351247.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185351247_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185360708.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185360708.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185360708_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185364950.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185364950.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185364950_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185373321.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185373321.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185373321_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185378564.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185378564.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185378564_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185391635.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185391635.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185391635_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185432218.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185432218.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406185432218_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186758537.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186758537.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186758537_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186764396.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186764396.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186764396_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186804052.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186804052.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186804052_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186804145.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186804145.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186804145_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186815087.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186815087.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186815087_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186866885.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186866885.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186866885_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186946051.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186946051.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186946051_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186952535.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186952535.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186952535_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186997430.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186997430.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406186997430_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget.JSONConstructorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406187012222.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406187012222.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.JSONConstructorWidget_JSONConstructorUiBinderImpl_designTime1406187012222_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   30% complete (ETR: 11 seconds)
+   30% complete (ETR: 11 seconds)
+   30% complete (ETR: 11 seconds)
+   30% complete (ETR: 11 seconds)
+   40% complete (ETR: 9 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 5 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 15,64 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   30% complete (ETR: 9 seconds)
+   30% complete (ETR: 9 seconds)
+   30% complete (ETR: 9 seconds)
+   30% complete (ETR: 9 seconds)
+   40% complete (ETR: 8 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 16,35 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
