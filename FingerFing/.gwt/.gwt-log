@@ -6821,3 +6821,761 @@ Compiling...
    Compilation completed in 0,00 seconds
 Removing invalidated units
 Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   20% complete (ETR: 13 seconds)
+   20% complete (ETR: 13 seconds)
+   20% complete (ETR: 13 seconds)
+   30% complete (ETR: 12 seconds)
+   40% complete (ETR: 9 seconds)
+   50% complete (ETR: 7 seconds)
+   60% complete (ETR: 5 seconds)
+   70% complete (ETR: 4 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 13,96 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   30% complete (ETR: 9 seconds)
+   30% complete (ETR: 9 seconds)
+   30% complete (ETR: 9 seconds)
+   30% complete (ETR: 9 seconds)
+   40% complete (ETR: 8 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 15,62 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   30% complete (ETR: 8 seconds)
+   30% complete (ETR: 8 seconds)
+   30% complete (ETR: 8 seconds)
+   30% complete (ETR: 8 seconds)
+   40% complete (ETR: 8 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 18,92 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   50% complete (ETR: 5 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 10,77 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2799 units from cache.
+Compiling...
+   30% complete (ETR: 15 seconds)
+   30% complete (ETR: 15 seconds)
+   30% complete (ETR: 15 seconds)
+   30% complete (ETR: 15 seconds)
+   40% complete (ETR: 11 seconds)
+   50% complete (ETR: 8 seconds)
+   60% complete (ETR: 6 seconds)
+   70% complete (ETR: 4 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 18,83 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,04 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew.ProgressBarNewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew_ProgressBarNewUiBinderImpl_designTime1406115661318_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew.ProgressBarNewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew_ProgressBarNewUiBinderImpl_designTime1406115663036_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2800 units from cache.
+Compiling...
+   50% complete (ETR: 3 seconds)
+   50% complete (ETR: 3 seconds)
+   50% complete (ETR: 3 seconds)
+   50% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   60% complete (ETR: 3 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 9,95 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117223493.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117223493.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117223493_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117223924.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117223924.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117223924_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117250855.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117250855.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117250855_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew.ProgressBarNewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew_ProgressBarNewUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117257736.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117257736.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117257736_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117262548.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117262548.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117262548_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117290312.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117290312.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117290312_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,06 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 2799 cached/archived units.  Used 2799 / 2800 units from cache.
+Compiling...
+   Compilation completed in 0,01 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117597544.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117597544.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117597544_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew.ProgressBarNewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew_ProgressBarNewUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117598071.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117598071.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117598071_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117609034.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117609034.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117609034_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117613170.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117613170.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117613170_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117615195.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117615195.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117615195_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117617051.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117617051.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117617051_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117619277.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117619277.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117619277_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117626504.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117626504.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117626504_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress.ExcerciseProgressUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117632820.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117632820.Template
+         Generating method body for html1()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ExcerciseProgress_ExcerciseProgressUiBinderImpl_designTime1406117632820_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2800 units from cache.
+Compiling...
+   20% complete (ETR: 13 seconds)
+   20% complete (ETR: 13 seconds)
+   20% complete (ETR: 13 seconds)
+   30% complete (ETR: 13 seconds)
+   40% complete (ETR: 12 seconds)
+   50% complete (ETR: 9 seconds)
+   60% complete (ETR: 8 seconds)
+   70% complete (ETR: 5 seconds)
+   80% complete (ETR: 4 seconds)
+   90% complete (ETR: 2 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 20,01 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorIndicator.SensorIndicatorUiBinder
+   Invoking generator com.google.gwt.uibinder.rebind.UiBinderGenerator
+      [ERROR] Cannot parse value: "10" as type long: <p1:ProgressBarNew range='10' ui:field='pgSuccessDensity'> (:45)
+[ERROR] Deferred binding failed for 'com.trifle.fingerfing.client.widget.SensorIndicator.SensorIndicatorUiBinder'; expect subsequent failures
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2800 units from cache.
+Compiling...
+   0% complete (ETR: 89 seconds)
+   10% complete (ETR: 75 seconds)
+   20% complete (ETR: 62 seconds)
+   30% complete (ETR: 56 seconds)
+   40% complete (ETR: 47 seconds)
+   50% complete (ETR: 37 seconds)
+   60% complete (ETR: 29 seconds)
+   70% complete (ETR: 20 seconds)
+   80% complete (ETR: 14 seconds)
+   90% complete (ETR: 7 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 67,50 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorIndicator.SensorIndicatorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorIndicator_SensorIndicatorUiBinderImpl_designTime1406118594535_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew.ProgressBarNewUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.ProgressBarNew_ProgressBarNewUiBinderImpl_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorIndicator.SensorIndicatorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorIndicator_SensorIndicatorUiBinderImpl_designTime1406118595595_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorIndicator.SensorIndicatorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorIndicator_SensorIndicatorUiBinderImpl_designTime1406118690608_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorIndicator.SensorIndicatorUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.SensorIndicator_SensorIndicatorUiBinderImpl_designTime1406118690771_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   50% complete (ETR: 4 seconds)
+   50% complete (ETR: 4 seconds)
+   50% complete (ETR: 4 seconds)
+   50% complete (ETR: 4 seconds)
+   50% complete (ETR: 4 seconds)
+   50% complete (ETR: 4 seconds)
+   60% complete (ETR: 3 seconds)
+   70% complete (ETR: 2 seconds)
+   80% complete (ETR: 1 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 17,69 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes

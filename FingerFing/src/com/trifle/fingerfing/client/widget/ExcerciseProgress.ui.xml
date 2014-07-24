@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.trifle.fingerfing.client.widget">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:VerticalPanel>
+		<p1:ProgressBarNew rangeInt="100" segmentCount="50"
+			ui:field="exProgress" />
+		<g:Label ui:field="text" />
+	</g:VerticalPanel>
+</ui:UiBinder> 

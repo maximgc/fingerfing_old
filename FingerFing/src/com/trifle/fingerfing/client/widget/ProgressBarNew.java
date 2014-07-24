@@ -10,6 +10,22 @@ import com.google.gwt.user.client.ui.HorizontalPanel;
 
 public class ProgressBarNew extends Composite implements ProgressBar{
 
+	private static final String SEGMENT_WIDTH = "10px";
+	private static final String SEGMENT_HEIGHT = "2px";
+	private static final int SEGMENT_COUNT = 10;
+	private int segmentCount;
+	
+	public int getSegmentCount() {
+		return segmentCount;
+	}
+
+	public void setSegmentCount(int segmentCount) {
+		this.segmentCount = (segmentCount < SEGMENT_COUNT) ? SEGMENT_COUNT : segmentCount;
+		removeSegments();
+		initSegments();
+	}
+
+
 	private static ProgressBarNewUiBinder uiBinder = GWT
 			.create(ProgressBarNewUiBinder.class);
 	@UiField HorizontalPanel hPanel;
@@ -17,69 +33,106 @@ public class ProgressBarNew extends Composite implements ProgressBar{
 	interface ProgressBarNewUiBinder extends UiBinder<Widget, ProgressBarNew> {
 	}
 
-	private Button[] buts = new Button[10];
+	
+	private Button[] buts = new Button[SEGMENT_COUNT];
 	
 	public ProgressBarNew() {
+		this(SEGMENT_COUNT);
+	}
+	
+	public ProgressBarNew(int segmentCount) {
+		this.segmentCount = (segmentCount < SEGMENT_COUNT) ? SEGMENT_COUNT : segmentCount;
 		initWidget(uiBinder.createAndBindUi(this));
-		for (int i = 0; i<10; i++){
+		initSegments();
+	}
+
+	private void initSegments() {
+		buts = new Button[segmentCount];
+		for (int i = 0; i<segmentCount; i++){
 			buts[i] = new Button();
 			hPanel.add(buts[i]);
-			buts[i].setWidth("10px");
-			buts[i].setHeight("10px");
 			buts[i].setStyleName("keyboardKey");
+			buts[i].setWidth(SEGMENT_WIDTH);
+			buts[i].setHeight(SEGMENT_HEIGHT);
 			Effects.effectDisable.apply(buts[i]);
+		}
+	}
+	
+	private void removeSegments() {
+		for (int i = 0; i < buts.length; i++){
+			hPanel.remove(buts[i]);
 		}
 	}
 
 	
-	private int range;
-	private int position;
-	private int maxPosition;
+	private long range;
+	private long position;
+	private long maxPosition;
 
 	@Override
-	public int getRange() {
+	public long getRange() {
 		return range;
 	}
 	
+	
 	@Override
-	public void setRange(int range) {
+	public void setRangeInt(int range) {
+		setRange((long)range);
+	}
+	
+	@Override
+	public void setRange(long range) {
 		this.range = range;
 	}
 
 	@Override
-	public int getPosition() {
+	public long getPosition() {
 		return position;
 	}
 
 	@Override
-	public void setPosition(int position) {
-		this.position = (position>range)?range:position;
+	public void setPositionInt(int position) {
+		setPosition((long)position);
+	}
+	
+	@Override
+	public void setPosition(long ps) {
+		position = ps;
+		position = (position>range)?range:position;
+		position = (position<0)?0:position;
+		
 		if (maxPosition<position) {
 			maxPosition = position;
 		}
-		for (int i = 0; i<(position*10+5)/range; i++){
+		
+		drawPosition();
+	}
+
+	private void drawPosition() {
+		for (int i = 0; i<(position*segmentCount+5)/(range); i++){
 			Effects.effectEnable.apply(buts[i]);
 		}
-		for (int i = (position*10+5)/range; i<10 ; i++){
+		for (int i = (int)((position*segmentCount+5)/(range)); i<segmentCount ; i++){
 			Effects.effectDisable.apply(buts[i]);
 		}
-//		imgPos.setWidth(position*100/range+"%");
-//		imgMaxPos.setWidth((maxPosition-position)*100/range+"%");
 	}
 
 	@Override
-	public int getMaxPosition() {
+	public long getMaxPosition() {
 		return maxPosition;
 	}
 
 	@Override
-	public void setMaxPosition(int maxPosition) {
+	public void setMaxPositionInt(int maxPosition) {
+		setMaxPosition((long) maxPosition);
+	}
+	
+	@Override
+	public void setMaxPosition(long maxPosition) {
 		this.maxPosition = maxPosition;
 		if (position>maxPosition) {
 			position = maxPosition;
 		}
-//		imgPos.setWidth(position*100/range+"%");
-//		imgMaxPos.setWidth((maxPosition-position)*100/range+"%");
 	}
 	
 	

@@ -2,19 +2,25 @@ package com.trifle.fingerfing.client.calcs;
 
 public class BonusMultiplier {
 
-	double forSpeed;
-	double forTemp;
-	long lastInTemp;
-	double forCorrect;
-	long lastCorrect;
-	double forSuccess;
+	private double forSpeed;
+	private double forTemp;
+	private long lastInTemp;
+	private double forCorrect;
+	private long lastCorrect;
+	private double forSuccess;
+	private int curCorrect;
+	
+	private double round01 (double d) {
+		return Math.round(d*10.0)/10.0;
+	}
 
-	public void nextDate(long speed, double temp, double success, int correct) {
+	public void nextDate(double speed, double temp, double success, int correct) {
+		curCorrect = correct;
 		if (correct == 0) {
 			lastCorrect = lastInTemp = 0;
 		} else {
 			lastCorrect++;
-			if (temp > 0.9) {
+			if (temp > 0.8) {
 				lastInTemp++;
 			} else {
 				lastInTemp = 0;
@@ -31,22 +37,22 @@ public class BonusMultiplier {
 	}
 
 	public double getMultiplier() {
-		return forSpeed * forTemp * forCorrect * forSuccess;
+		return round01(forSpeed * forTemp * forCorrect * forSuccess * curCorrect);
 	}
 
 	public double getForSpeed() {
-		return forSpeed;
+		return round01(forSpeed);
 	}
 
 	public double getForTemp() {
-		return forTemp;
+		return round01(forTemp);
 	}
 
 	public double getForCorrect() {
-		return forCorrect;
+		return round01(forCorrect);
 	}
 
 	public double getForSuccess() {
-		return forSuccess;
+		return round01(forSuccess);
 	}
 }

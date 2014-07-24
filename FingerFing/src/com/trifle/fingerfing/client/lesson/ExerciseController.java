@@ -3,6 +3,7 @@ package com.trifle.fingerfing.client.lesson;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 import com.google.gwt.core.shared.GWT;
 import com.google.web.bindery.autobean.shared.AutoBean;
 import com.google.web.bindery.autobean.shared.AutoBeanCodex;
@@ -10,30 +11,49 @@ import com.google.web.bindery.autobean.shared.AutoBeanFactory;
 import com.google.web.bindery.autobean.shared.AutoBeanUtils;
 import com.trifle.fingerfing.client.Evaluator;
 import com.trifle.fingerfing.client.NativeKey;
+import com.trifle.fingerfing.client.calcs.BonusMultiplier;
+import com.trifle.fingerfing.client.calcs.StatCalc;
 import com.trifle.fingerfing.client.resources.FFResources;
 
 public class ExerciseController {
 
+	
+	private StatCalc sc;
+	private BonusMultiplier bm;
+	
+
+
 	private int curStep = -1;
-	private int curKeyStep = -1;
-	private int curScore;
+	private int fullCount = -1;
 	private WorkingSets wSets;
 	private List<NativeKey> curKeys;
 	private NativeKey exerciseKey;
 	private NativeKey answeredKey;
-	private Evaluator evaluator;
+	private Evaluator ev;
 	private int lastEvaluate;
 	private MethodKeySelect curMethodSelect;
-	private int curFinalCount;
-	private long curFinalScore;
+	private long fullScore;
+	private long simpleScore;
+	private long awardedScore;
 
-	public ExerciseController() {
+	private long finalCount;
+	private long finalScore;
+
+
+	public ExerciseController(Evaluator ev, StatCalc sc, BonusMultiplier bm) {
+		this.sc = sc;
+		this.bm = bm;
+		this.ev = ev;
 		init();
+	}
+	
+	@SuppressWarnings("unused")
+	private ExerciseController() {
+		// TODO Auto-generated constructor stub
 	}
 
 	private void init() {
 		initWorkingSets(FFResources.INST.getWorkingSets().getText());
-		evaluator = new Evaluator();
 		goNextWorkingSet();
 		goNextExerciseKey();
 	}
@@ -68,24 +88,24 @@ public class ExerciseController {
 		String json = AutoBeanCodex.encode(AutoBeanUtils.getAutoBean(wSets))
 				.getPayload();
 
-		System.out.println(json);
+//		System.out.println(json);
 	}
 
 	private void goNextExerciseKey() {
-		System.out.println("before curFinalCount: " + curFinalCount + ", curKeyStep: "
-				+ curKeyStep + ", curFinalScore: " + curFinalScore
-				+ ", curFinalScore: " + curFinalScore);
-		if ((curFinalCount != 0 && ++curKeyStep >= curFinalCount)
-				|| (curFinalScore != 0 && ++curScore >= curFinalScore)) {
-			curKeyStep = 0;
-			curScore = 0;
+		if ((finalCount != 0 && ++fullCount >= finalCount)
+				|| (finalScore != 0 && fullScore >= finalScore)) {
+			fullCount = 0;
+			fullScore = 0;
 			goNextWorkingSet();
 		}
 		exerciseKey = curMethodSelect.select(curKeys);
-		System.out.println("after curFinalCount: " + curFinalCount + ", curKeyStep: "
-				+ curKeyStep + ", curFinalScore: " + curFinalScore
-				+ ", curScore: " + curScore);
 	}
+	
+	
+	public static final int TYPE_COUNT = 0;
+	public static final int TYPE_SCORE = 1;
+
+	private int type;
 
 	private void goNextWorkingSet() {
 		if (curStep < wSets.getWorkingSets().size() - 1) {
@@ -93,18 +113,22 @@ public class ExerciseController {
 			Keys keys = wSets.getWorkingSets().get(curStep);
 
 			curKeys = keys.getKeys();
-			curFinalCount = 0;
-			curFinalScore = 0;
+			finalCount = 0;
+			finalScore = 0;
 			
 			
 			if (keys.getFinalScore() == null && keys.getFinalCount() == null) {
-				curFinalCount = keys.getKeys().size();
+				finalCount = keys.getKeys().size();
+				type = TYPE_COUNT;
 			} else {
 				if (keys.getFinalCount() != null) {
-					curFinalCount = Integer.parseInt(keys.getFinalCount());
+					finalCount = Integer.parseInt(keys.getFinalCount());
+					type = TYPE_COUNT;
 				}
 				if (keys.getFinalScore() != null) {
-					curFinalScore = Integer.parseInt(keys.getFinalScore());
+					finalScore = Integer.parseInt(keys.getFinalScore());
+					finalCount = 0;
+					type = TYPE_SCORE;
 				}
 			}
 
@@ -123,6 +147,24 @@ public class ExerciseController {
 		}
 	}
 
+	private long lastTimestamp = System.currentTimeMillis();
+
+	public void setAnswerKey(NativeKey key) {
+		answeredKey = key;
+		lastEvaluate = ev.check(exerciseKey, answeredKey);
+
+		sc.addRecord(System.currentTimeMillis() - lastTimestamp, lastEvaluate);
+		bm.nextDate(sc.getLastMeanSpeed(), sc.getLastMeanInTempo(),
+				sc.getFullSuccessDensity(), lastEvaluate);
+		simpleScore = (long) sc.getStepSpeed();
+		awardedScore = (long) (bm.getMultiplier() * simpleScore);
+		fullScore += awardedScore;
+		goNextExerciseKey();
+		if (lastEvaluate > 0) {		
+			lastTimestamp = System.currentTimeMillis();
+		}
+	}
+
 	public List<NativeKey> getWorkingSet() {
 		return curKeys;
 	}
@@ -135,15 +177,69 @@ public class ExerciseController {
 		return exerciseKey;
 	}
 
-	public void setAnswerKey(NativeKey key) {
-		answeredKey = key;
-		lastEvaluate = evaluator.check(exerciseKey, answeredKey);
-		goNextExerciseKey();
-	}
-
+	
 	public int getLastEvaluate() {
 		return lastEvaluate;
 	}
+
+	
+	public StatCalc getSc() {
+		return sc;
+	}
+
+	public void setSc(StatCalc sc) {
+		this.sc = sc;
+	}
+
+	public BonusMultiplier getBm() {
+		return bm;
+	}
+
+	public void setBm(BonusMultiplier bm) {
+		this.bm = bm;
+	}
+
+	public long getFullScore() {
+		return fullScore;
+	}
+	
+	public long getSimpleScore() {
+		return simpleScore;
+	}
+
+	public long getAwardedScore() {
+		return awardedScore;
+	}
+	
+	public long getCurValue() {
+		switch (type) {
+		case TYPE_COUNT:
+			return fullCount;
+		case TYPE_SCORE:
+			return fullScore;
+		default:
+			return fullCount;
+		}
+		// return finalCount;
+	}
+
+	public long getFinalValue() {
+		switch (type) {
+		case TYPE_COUNT:
+			return finalCount;
+		case TYPE_SCORE:
+			return finalScore;
+		default:
+			return finalCount;
+		}
+		// return finalScore;
+	}
+	
+	public int getType() {
+		return type;
+	}
+
+
 
 	public static interface BeanFactory extends AutoBeanFactory {
 
@@ -176,5 +272,6 @@ public class ExerciseController {
 
 		void setKeys(List<NativeKey> s);
 	}
+
 
 }

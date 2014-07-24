@@ -4,16 +4,21 @@ import com.google.gwt.user.client.ui.IsWidget;
 
 public interface ProgressBar extends IsWidget{
 
-	public abstract int getRange();
+	public abstract long getRange();
 
-	public abstract void setRange(int range);
+	public abstract void setRange(long range);
+	
+	public abstract void setRangeInt(int range);
 
-	public abstract int getPosition();
+	public abstract long getPosition();
 
-	public abstract void setPosition(int position);
+	public abstract void setPosition(long position);
 
-	public abstract int getMaxPosition();
+	public abstract void setPositionInt(int position);
+	
+	public abstract long getMaxPosition();
 
-	public abstract void setMaxPosition(int maxPosition);
+	public abstract void setMaxPosition(long maxPosition);
 
+	public abstract void setMaxPositionInt(int maxPosition);
 }

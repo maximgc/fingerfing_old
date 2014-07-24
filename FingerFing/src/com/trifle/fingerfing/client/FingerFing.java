@@ -14,9 +14,10 @@ import com.trifle.fingerfing.client.calcs.BonusMultiplier;
 import com.trifle.fingerfing.client.calcs.StatCalcConvergent;
 import com.trifle.fingerfing.client.lesson.ExerciseController;
 import com.trifle.fingerfing.client.widget.Effects;
+import com.trifle.fingerfing.client.widget.ExcerciseProgress;
 import com.trifle.fingerfing.client.widget.KeyboardWidget;
 import com.trifle.fingerfing.client.widget.KeyboardWidgetUIFlex;
-import com.trifle.fingerfing.client.widget.SensorData;
+import com.trifle.fingerfing.client.widget.SensorIndicator;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -29,15 +30,17 @@ public class FingerFing implements EntryPoint {
 		final Label errorLabel = new Label();
 		final KeyboardWidget keyWidget = new KeyboardWidgetUIFlex();
 		final FocusPanel fp = new FocusPanel();
-		final SensorData sd = new SensorData();
+		final SensorIndicator sensorIndicator = new SensorIndicator();
+		final ExcerciseProgress ep = new ExcerciseProgress();
 
 		fp.add(keyWidget);
 
-		RootPanel.get("mainWidgetField").add(sd);
+		RootPanel.get("mainWidgetField").add(ep);
+		RootPanel.get("mainWidgetField").add(sensorIndicator);
 		RootPanel.get("mainWidgetField").add(fp);
 		RootPanel.get("errorWidgetField").add(errorLabel);
 
-		final ExerciseController ex = new ExerciseController();
+		final ExerciseController ex = new ExerciseController(new Evaluator(), new StatCalcConvergent(), new BonusMultiplier());
 
 		fp.addClickHandler(new ClickHandler() {
 
@@ -51,9 +54,6 @@ public class FingerFing implements EntryPoint {
 		keyWidget.setEffectAll(ex.getWorkingSet(), Effects.effectEnable);
 		keyWidget.setEffect(ex.getExerciseKey(), Effects.effectExpect);
 
-		final StatCalcConvergent statCalc = new StatCalcConvergent();
-		final BonusMultiplier bm = new BonusMultiplier();
-		
 		fp.addKeyDownHandler(new KeyDownHandler() {
 			@Override
 			public void onKeyDown(KeyDownEvent event) {
@@ -61,31 +61,25 @@ public class FingerFing implements EntryPoint {
 				NativeKey keyDown = NativeKey.getByNativeCode(event
 						.getNativeKeyCode());
 				
-				keyWidget.setEffect(ex.getExerciseKey(), Effects.effectUp); 
+				keyWidget.setEffect(ex.getExerciseKey(), Effects.effectDefault); 
 				
 				ex.setAnswerKey(keyDown); //FIXME баг при finalCount=1 или 2, новый workingSet почемуто не отображется
 				
+				
+				sensorIndicator.setData(ex.getSc().getFullCount(),
+						ex.getSc().getFullTimeMillis(),
+						ex.getSc().getFullSuccessDensity(),
+						ex.getSc().getFullMeanSpeed(), 
+						ex.getSc().getLastMeanSpeed(),
+						ex.getSc().getLastMeanInTempo());
+				
+				sensorIndicator.setMultiplers(ex.getFullScore(), ex.getAwardedScore(), ex.getSimpleScore(), ex.getBm().getMultiplier(), ex.getBm().getForSpeed(), ex.getBm().getForTemp(), ex.getBm().getForCorrect(), ex.getBm().getForSuccess());
+				
+				ep.setType(ex.getType());
+				ep.setFinalValue(ex.getFinalValue());
+				ep.setCurValue(ex.getCurValue());
+				
 				keyWidget.setEffect(keyDown, Effects.effectPress);
-				
-				statCalc.addRecord(System.currentTimeMillis(),
-						ex.getLastEvaluate());
-
-				bm.nextDate(statCalc.calcConvergentMeanSpeed(),
-						statCalc.calcConvergentMeanDeviation(),
-						statCalc.calcFullDensitySuccess(), ex.getLastEvaluate());
-
-				sd.setData(statCalc.calcAllTime(),
-						statCalc.calcConvergentMeanSpeed(),
-						statCalc.calcFullDensitySuccess(),
-						statCalc.calcFullMeanSpeed(), 
-						statCalc.calcCount(),
-						statCalc.calcConvergentMeanDeviation(), 
-						statCalc.calcStepDeviation());
-				
-				sd.setMultiplers((long)(statCalc.calcLastSpeed()*bm.getMultiplier()), bm.getForSpeed(), bm.getForTemp(), bm.getForCorrect(), bm.getForSuccess());
-				
-				
-				
 				keyWidget.setEffectAll(Effects.effectDisable);
 				keyWidget.setEffectAll(ex.getWorkingSet(), Effects.effectEnable); //FIXME Очень неэффективно
 			}
@@ -96,7 +90,7 @@ public class FingerFing implements EntryPoint {
 			public void onKeyUp(KeyUpEvent event) {
 				NativeKey keyUp = NativeKey.getByNativeCode(event
 						.getNativeKeyCode());
-				keyWidget.setEffect(keyUp, Effects.effectUp);
+				keyWidget.setEffect(keyUp, Effects.effectDefault);
 				keyWidget.setEffect(ex.getExerciseKey(), Effects.effectExpect);
 			}
 		});
