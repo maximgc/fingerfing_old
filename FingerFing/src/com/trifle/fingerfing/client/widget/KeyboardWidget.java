@@ -21,5 +21,31 @@ public interface KeyboardWidget extends IsWidget{
 	public abstract AlternativeKeyLayout getAlternateveKeyLayout();
 
 	public abstract void setAlternateveKeyLayout(AlternativeKeyLayout alternateveKeyLayout);
+	
+	public abstract void setKeyBlock(KeyBlock keyBlock);
+
+	public abstract KeyBlock getKeyBlock();
+
+	public static interface KeyBlock {
+		public List<KeyRow> getBlock();
+
+		public void setBlock(List<KeyRow> block);
+	}
+
+	public static interface KeyRow {
+		public List<Key> getRow();
+
+		public void setRow(List<Key> row);
+	}
+
+	public static interface Key {
+		public NativeKey getNativeKey();
+
+		public void setNativeKey(NativeKey nativeKey);
+
+		public String getWidth();
+
+		public void setWidth(String width);
+	}
 
 }

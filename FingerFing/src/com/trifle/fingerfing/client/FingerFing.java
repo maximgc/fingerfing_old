@@ -17,8 +17,9 @@ import com.trifle.fingerfing.client.lesson.ExerciseController;
 import com.trifle.fingerfing.client.resources.FFResources;
 import com.trifle.fingerfing.client.widget.Effects;
 import com.trifle.fingerfing.client.widget.ExcerciseProgress;
-import com.trifle.fingerfing.client.widget.JSONConstructorWidget;
 import com.trifle.fingerfing.client.widget.KeyboardWidget;
+import com.trifle.fingerfing.client.widget.KeyboardWidget.KeyBlock;
+import com.trifle.fingerfing.client.widget.constructor.JSONConstructorWidget;
 import com.trifle.fingerfing.client.widget.KeyboardWidgetUIFlex;
 import com.trifle.fingerfing.client.widget.SensorIndicator;
 
@@ -40,9 +41,13 @@ public class FingerFing implements EntryPoint {
 		final JSONConstructorWidget jsonC = new JSONConstructorWidget(bm);
 		
 		fp.add(keyWidget);
-		keyWidget.setAlternateveKeyLayout(new AlternativeKeyLayout(bm
-				.decodeLabelTextMap(
-						FFResources.INST.getAlternativeKeyLayoutRU().getText())));		
+		KeyBlock keyBlock = bm.new KeyboardWidgetBeans().decodeKeyBlock(FFResources.INST.getKeyBlockBase().getText());
+		keyWidget.setKeyBlock(keyBlock);
+		AlternativeKeyLayout alternateveKeyLayoutRU = new AlternativeKeyLayout(
+				bm.new AlternativeKeyLayoutBeans().decodeLabelTextMap(FFResources.INST
+						.getAlternativeKeyLayoutRU().getText()));
+		keyWidget.setAlternateveKeyLayout(alternateveKeyLayoutRU);
+		
 
 		RootPanel.get("mainWidgetField").add(ep);
 		RootPanel.get("mainWidgetField").add(sensorIndicator);
@@ -50,7 +55,8 @@ public class FingerFing implements EntryPoint {
 		RootPanel.get("mainWidgetField").add(jsonC);
 		RootPanel.get("errorWidgetField").add(errorLabel);
 
-		final ExerciseController ex = new ExerciseController(bm.decodeWorkingSets(FFResources.INST.getWorkingSets().getText()), new Evaluator(), new StatCalcConvergent(), new BonusMultiplier());
+		
+		final ExerciseController ex = new ExerciseController(bm.new WorkingSetsBeans().decodeWorkingSets(FFResources.INST.getWorkingSets().getText()), new Evaluator(), new StatCalcConvergent(), new BonusMultiplier());
 		
 		fp.addClickHandler(new ClickHandler() {
 

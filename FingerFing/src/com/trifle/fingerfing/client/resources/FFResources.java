@@ -13,5 +13,8 @@ public interface FFResources extends ClientBundle {
 
 	@Source("AlternativeKeyLayoutRU.json")
 	public TextResource getAlternativeKeyLayoutRU();
+	
+	@Source("KeyBlockBase.json")
+	public TextResource getKeyBlockBase();
 
 }
