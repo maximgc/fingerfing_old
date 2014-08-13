@@ -7,6 +7,7 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.gwt.user.client.ui.Label;
 import com.trifle.fingerfing.client.lesson.ExerciseController;
+import com.trifle.fingerfing.client.widget.newage.ProgressBar;
 
 public class ExcerciseProgress extends Composite{
 
@@ -55,7 +56,7 @@ public class ExcerciseProgress extends Composite{
 
 	public void setFinalValue(long finalValue) {
 		this.finalValue = finalValue;
-		exProgress.setRange(finalValue);
+//		exProgress.setRangeLong(finalValue);
 		text.setText(typeName + ": " + curValue + "/" + finalValue);
 	}
 
@@ -65,7 +66,7 @@ public class ExcerciseProgress extends Composite{
 
 	public void setCurValue(long curValue) {
 		this.curValue = curValue;
-		exProgress.setPosition(curValue);
+		exProgress.setValue((double)curValue/finalValue);
 		text.setText(typeName + ": " + curValue + "/" + finalValue);
 	}
 

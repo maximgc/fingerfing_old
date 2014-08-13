@@ -14,9 +14,9 @@ public interface KeyboardWidget extends IsWidget{
 
 	public abstract void setEffectAll(Effect e);
 
-	public abstract void setEffectAll(List<NativeKey> sn, Effect e);
+	public abstract void setEffect(List<NativeKey> sn, Effect e);
 
-	public abstract void setEffectAll(Set<NativeKey> sn, Effect e);
+	public abstract void setEffect(Set<NativeKey> sn, Effect e);
 
 	public abstract AlternativeKeyLayout getAlternateveKeyLayout();
 

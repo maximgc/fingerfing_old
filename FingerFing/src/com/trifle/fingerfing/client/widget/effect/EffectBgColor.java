@@ -1,6 +1,6 @@
 package com.trifle.fingerfing.client.widget.effect;
 
-import com.google.gwt.user.client.ui.Widget;
+import com.google.gwt.user.client.ui.IsWidget;
 
 public class EffectBgColor implements Effect {
 
@@ -16,8 +16,8 @@ public class EffectBgColor implements Effect {
 	}
 	
 	@Override
-	public void apply(Widget w) {
-		w.getElement().getStyle().setBackgroundColor(color.toStringRgbFomat());
+	public void apply(IsWidget w) {
+		w.asWidget().getElement().getStyle().setBackgroundColor(color.toStringRgbFomat());
 	}
 
 }

@@ -3,7 +3,7 @@ package com.trifle.fingerfing.client;
 import java.util.HashMap;
 import java.util.Map;
 
-public enum NativeKey {
+public enum NativeKey{
 
 	/*
 	 * KEY_BACKSPACE(8), KEY_SHIFT(16), KEY_CTRL(17), KEY_ALT(18),

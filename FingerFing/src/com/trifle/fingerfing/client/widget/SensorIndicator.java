@@ -6,6 +6,7 @@ import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.gwt.user.client.ui.Label;
+import com.trifle.fingerfing.client.widget.newage.ProgressBar;
 
 public class SensorIndicator extends Composite {
 
@@ -24,10 +25,10 @@ public class SensorIndicator extends Composite {
 	Label lastMeanDeviation;
 	
 	@UiField ProgressBar pgSuccessDensity;
-	@UiField ProgressBarNew pgFullTime;
-	@UiField ProgressBarNew pgFullCount;
-	@UiField ProgressBarNew pgMeanSpeed;
-	@UiField ProgressBarNew pgTemp;
+	@UiField ProgressBar pgFullTime;
+	@UiField ProgressBar pgFullCount;
+	@UiField ProgressBar pgMeanSpeed;
+	@UiField ProgressBar pgTemp;
 	@UiField Label mForTemp;
 	@UiField Label mForSpeed;
 	@UiField Label mForSuccess;
@@ -50,9 +51,13 @@ public class SensorIndicator extends Composite {
 		this.fullCount.setText(String.valueOf(count));
 		this.lastMeanDeviation.setText(String.valueOf(lastMeanDeviation));
 		
-		pgSuccessDensity.setPositionInt((int)(fullDensitySuccess*10));
-		pgMeanSpeed.setPositionInt((int)(lastMeanSpeed));
-		pgTemp.setPositionInt((int)(lastMeanDeviation*10));
+		pgSuccessDensity.setValue(fullDensitySuccess);
+		
+		pgMeanSpeed.setValue((double)lastMeanSpeed/2000);
+		pgTemp.setValue(lastMeanDeviation);
+//		pgSuccessDensity.setValueInt((int)(fullDensitySuccess*10));
+//		pgMeanSpeed.setValueInt((int)(lastMeanSpeed));
+//		pgTemp.setValueInt((int)(lastMeanDeviation*10));
 	}
 	
 	public void setMultiplers(long fullScore, long awardedScore, long simpleScore, double forAll, double forSpeed, double forTemp, double forCorrect, double forSuccess){

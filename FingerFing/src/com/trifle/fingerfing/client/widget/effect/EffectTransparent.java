@@ -1,6 +1,6 @@
 package com.trifle.fingerfing.client.widget.effect;
 
-import com.google.gwt.user.client.ui.Widget;
+import com.google.gwt.user.client.ui.IsWidget;
 
 public class EffectTransparent implements Effect {
 
@@ -15,8 +15,8 @@ public class EffectTransparent implements Effect {
 	}
 	
 	@Override
-	public void apply(Widget w) {
-		w.getElement().getStyle().setOpacity(op);
+	public void apply(IsWidget w) {
+		w.asWidget().getElement().getStyle().setOpacity(op);
 	}
 
 }

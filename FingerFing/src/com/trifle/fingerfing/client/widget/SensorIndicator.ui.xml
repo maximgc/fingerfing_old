@@ -1,107 +1,81 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.trifle.fingerfing.client.widget">
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.trifle.fingerfing.client.widget.newage">
 	<ui:style>
 	.important {
 		font-weight: bold;
 	}
 	</ui:style>
 		<g:VerticalPanel>
-			<g:Cell horizontalAlignment="ALIGN_RIGHT">
-				<g:Grid>
+			<g:Grid>
 				<g:row>
 					<g:customCell>
-						<g:Label text="Общее время:" />
+						<p1:VerticalProgressBar ui:field="pgFullTime" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3"/>
 					</g:customCell>
 					<g:customCell>
-						<p1:ProgressBarNew ui:field="pgFullTime"/>
+						<p1:VerticalProgressBar ui:field="pgFullCount" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3"/>
 					</g:customCell>
 					<g:customCell>
-						<g:Label ui:field="mScore"/>
+						<p1:VerticalProgressBar ui:field="pgSuccessDensity" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3" value="1.0"/>
 					</g:customCell>
 					<g:customCell>
-						<g:Label text="" ui:field="fullTime" />
+						<p1:VerticalProgressBar ui:field="pgMeanSpeed" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgTemp" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3"/>
 					</g:customCell>
 				</g:row>
 				<g:row>
 					<g:customCell>
-						<g:Label text="Попытки:" />
+						<g:Label text="Об.Время" />
 					</g:customCell>
 					<g:customCell>
-						<p1:ProgressBarNew ui:field="pgFullCount" />
+						<g:Label text="Попытки" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="Правильно" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="Скорость" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="Темп" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label ui:field="mScore"/>
 					</g:customCell>
 					<g:customCell>
 						<g:Label ui:field="mForCorrect"/>
 					</g:customCell>
 					<g:customCell>
-						<g:Label text="" ui:field="fullCount" />
-					</g:customCell>
-				</g:row> 
-				<g:row>
-					<g:customCell>
-						<g:Label text="Правильно:" />
-					</g:customCell>
-					<g:customCell>
-						<p1:ProgressBarNew ui:field="pgSuccessDensity" rangeInt="10" />
-					</g:customCell>
-					<g:customCell>
 						<g:Label ui:field="mForSuccess"/>
-					</g:customCell>
-					<g:customCell>
-						<g:Label text="" ui:field="fullSuccessDensity" />
-					</g:customCell>
-				</g:row>
-<!-- 				<g:row> -->
-<!-- 					<g:customCell> -->
-<!-- 						<g:Label text="Общ. средняя скорость:" /> -->
-<!-- 					</g:customCell> -->
-<!-- 					<g:customCell> -->
-<!-- 						<p1:ProgressBarNew /> -->
-<!-- 					</g:customCell> -->
-<!-- 					<g:customCell> -->
-<!-- 						<g:Label text="" ui:field="fullMeanSpeed" /> -->
-<!-- 					</g:customCell> -->
-<!-- 				</g:row> -->
-				<g:row>
-					<g:customCell>
-						<g:Label text="Скорость:" />
-					</g:customCell>
-					<g:customCell>
-						<p1:ProgressBarNew ui:field="pgMeanSpeed"  rangeInt="2000"/>
 					</g:customCell>
 					<g:customCell>
 						<g:Label ui:field="mForSpeed"/>
 					</g:customCell>
 					<g:customCell>
-						<g:Label text="" ui:field="lastMeanSpeed" />
+						<g:Label ui:field="mForTemp"/>
 					</g:customCell>
 				</g:row>
-<!-- 				<g:row> -->
-<!-- 					<g:customCell> -->
-<!-- 						<g:Label text="Последнее отклонение от темпа:" /> -->
-<!-- 					</g:customCell> -->
-<!-- 					<g:customCell> -->
-<!-- 						<p1:ProgressBarNew /> -->
-<!-- 					</g:customCell> -->
-<!-- 					<g:customCell> -->
-<!-- 						<g:Label text="" ui:field="curDeviation" /> -->
-<!-- 					</g:customCell> -->
-<!-- 				</g:row> -->
 				<g:row>
 					<g:customCell>
-						<g:Label text="Темп:" />
+						<g:Label text="" ui:field="fullTime" />
 					</g:customCell>
 					<g:customCell>
-						<p1:ProgressBarNew ui:field="pgTemp"  rangeInt="10"/>
+						<g:Label text="" ui:field="fullCount" />
 					</g:customCell>
 					<g:customCell>
-						<g:Label ui:field="mForTemp"/>
+						<g:Label text="" ui:field="fullSuccessDensity" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lastMeanSpeed" />
 					</g:customCell>
 					<g:customCell>
 						<g:Label text="" ui:field="lastMeanDeviation" />
 					</g:customCell>
 				</g:row>
 			</g:Grid>
-			</g:Cell>
 		</g:VerticalPanel>
 </ui:UiBinder> 
