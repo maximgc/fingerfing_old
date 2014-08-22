@@ -11,7 +11,8 @@ public class StatCalcConvergent implements StatCalc {
 	private double fullMeanSpeed ;
 	
 	private double stepSpeed;
-
+	
+	private double lastMaxMeanSpeed = 0;
 	private double lastMeanSpeed;
 	private double lastMeanInTempo;
 	
@@ -25,6 +26,7 @@ public class StatCalcConvergent implements StatCalc {
 	private void calcLastMeanSpeed() {
 		// на базе сходящегося ряда 1/2^n, сходится к 1.
 		lastMeanSpeed = lastMeanSpeed*0.75 + stepSpeed*0.25;
+		if (lastMeanSpeed > lastMaxMeanSpeed) lastMaxMeanSpeed = lastMeanSpeed;
 
 //		вариант попытки стабилизировать от разовых скачков, 
 //		плохо переносит разовые падения скорости, например можно набирать по 3 быстрых нажатия с перерывами - средняя будет высокой
@@ -32,8 +34,8 @@ public class StatCalcConvergent implements StatCalc {
 //		lastMeanSpeed = (lastMeanSpeed==0)?stepSpeed:(1-cof)*lastMeanSpeed+cof*stepSpeed;
 	}
 
-	private double round01 (double d) {
-		return Math.round(d*10.0)/10.0;
+	private double round001 (double d) {
+		return Math.round(d*100.0)/100.0;
 	}
 
 	@Override
@@ -56,7 +58,7 @@ public class StatCalcConvergent implements StatCalc {
 
 	@Override
 	public double getLastMeanInTempo(){
-		return round01(lastMeanInTempo);
+		return round001(lastMeanInTempo);
 	}
 
 	@Override
@@ -66,17 +68,17 @@ public class StatCalcConvergent implements StatCalc {
 
 	@Override
 	public double getFullSuccessDensity() {
-		return round01(fullSuccessDensity);
+		return round001(fullSuccessDensity);
 	}
 
 	@Override
 	public double getLastMeanSpeed() {
-		return round01(lastMeanSpeed);
+		return round001(lastMeanSpeed);
 	}
 
 	@Override
 	public double getFullMeanSpeed() {
-		return round01(fullMeanSpeed);
+		return round001(fullMeanSpeed);
 	}
 
 	@Override
@@ -86,13 +88,18 @@ public class StatCalcConvergent implements StatCalc {
 	
 	@Override
 	public double getStepSpeed() {
-		return round01(stepSpeed);
+		return round001(stepSpeed);
 	}
 
 	@Override
 	public String toDebugString() {
 		return "count=" + fullCount + "countSuccess=" + fullCountSuccess + " sumTime="
 				+ fullTime + " lastStepTime="	+ stepTime;
+	}
+
+	@Override
+	public double getLastMaxMeanSpeed() {
+		return lastMaxMeanSpeed;
 	}
 
 }

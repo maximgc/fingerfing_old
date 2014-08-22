@@ -2,26 +2,22 @@ package com.trifle.fingerfing.client.widget.newage;
 
 public interface ProgressBar {
 
-	public abstract void setSegmentSizePx(int width, int height);
+	public abstract int getValue();
 
-	public abstract void setSegmentWidthPx(int width);
+	public abstract void setValue(int value);
+	
+	public abstract void addValueSegment(int startSegment, int endSegment, String colorON, String colorOFF);
 
-	public abstract void setSegmentHeightPx(int height);
+	public abstract void setRangeEndValue(int rangeEndValue);
 
-	public abstract int getSegmentWidthPx();
+	public abstract int getRangeEndValue();
 
-	public abstract int getSegmentHeightPx();
+	public abstract void setRangeStartValue(int rangeStartValue);
 
-	public abstract double getValue();
+	public abstract int getRangeStartValue();
 
-	public abstract void setValue(double value);
+	public abstract String getTitle();
 
-	public abstract int getSegmentCount();
-
-	public abstract void setSegmentCount(int n);
-
-	public abstract String getTopLabelText();
-
-	public abstract void setTopLabelText(String text);
-
+	public abstract void setTitle(String title);
+	
 }

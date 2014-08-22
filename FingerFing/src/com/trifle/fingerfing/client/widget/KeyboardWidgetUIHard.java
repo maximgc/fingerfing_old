@@ -1,21 +1,21 @@
 package com.trifle.fingerfing.client.widget;
 
-import java.util.EnumMap;
-import java.util.EnumSet;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
-import com.google.gwt.core.client.GWT;
-import com.google.gwt.uibinder.client.UiBinder;
-import com.google.gwt.uibinder.client.UiField;
-import com.google.gwt.user.client.ui.AbsolutePanel;
-import com.google.gwt.user.client.ui.Button;
+//import java.util.EnumMap;
+//import java.util.EnumSet;
+//import java.util.HashSet;
+//import java.util.List;
+//import java.util.Set;
+//
+//import com.google.gwt.core.client.GWT;
+//import com.google.gwt.uibinder.client.UiBinder;
+//import com.google.gwt.uibinder.client.UiField;
+//import com.google.gwt.user.client.ui.AbsolutePanel;
+//import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.Widget;
-import com.trifle.fingerfing.client.IllegalNativeKey;
-import com.trifle.fingerfing.client.NativeKey;
-import com.trifle.fingerfing.client.widget.effect.Effect;
+//import com.google.gwt.user.client.ui.Widget;
+//import com.trifle.fingerfing.client.IllegalNativeKey;
+//import com.trifle.fingerfing.client.NativeKey;
+//import com.trifle.fingerfing.client.widget.effect.Effect;
 
 public class KeyboardWidgetUIHard extends Composite { // implements KeyboardWidget  {
 //

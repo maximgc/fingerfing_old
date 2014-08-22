@@ -6,76 +6,85 @@
 		font-weight: bold;
 	}
 	</ui:style>
-		<g:VerticalPanel>
-			<g:Grid>
+		<g:HorizontalPanel>
+			<g:Grid width="400px">
 				<g:row>
 					<g:customCell>
-						<p1:VerticalProgressBar ui:field="pgFullTime" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3"/>
+						<g:Label text="Время" />
 					</g:customCell>
-					<g:customCell>
-						<p1:VerticalProgressBar ui:field="pgFullCount" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3"/>
-					</g:customCell>
-					<g:customCell>
-						<p1:VerticalProgressBar ui:field="pgSuccessDensity" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3" value="1.0"/>
-					</g:customCell>
-					<g:customCell>
-						<p1:VerticalProgressBar ui:field="pgMeanSpeed" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3"/>
-					</g:customCell>
-					<g:customCell>
-						<p1:VerticalProgressBar ui:field="pgTemp" segmentCount="30" segmentWidthPx="55" segmentHeightPx="3"/>
-					</g:customCell>
-				</g:row>
-				<g:row>
-					<g:customCell>
-						<g:Label text="Об.Время" />
-					</g:customCell>
-					<g:customCell>
-						<g:Label text="Попытки" />
-					</g:customCell>
-					<g:customCell>
-						<g:Label text="Правильно" />
-					</g:customCell>
-					<g:customCell>
-						<g:Label text="Скорость" />
-					</g:customCell>
-					<g:customCell>
-						<g:Label text="Темп" />
-					</g:customCell>
-				</g:row>
-				<g:row>
 					<g:customCell>
 						<g:Label ui:field="mScore"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lFullTime" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Попыт" />
 					</g:customCell>
 					<g:customCell>
 						<g:Label ui:field="mForCorrect"/>
 					</g:customCell>
 					<g:customCell>
+						<g:Label text="" ui:field="lFullCount" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Коррек" />
+					</g:customCell>
+					<g:customCell>
 						<g:Label ui:field="mForSuccess"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lFullSuccessDensity" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Скор" />
 					</g:customCell>
 					<g:customCell>
 						<g:Label ui:field="mForSpeed"/>
 					</g:customCell>
 					<g:customCell>
-						<g:Label ui:field="mForTemp"/>
+						<g:Label text="" ui:field="lLastMeanSpeed" />
 					</g:customCell>
 				</g:row>
 				<g:row>
 					<g:customCell>
-						<g:Label text="" ui:field="fullTime" />
+						<g:Label text="Темп" />
 					</g:customCell>
 					<g:customCell>
-						<g:Label text="" ui:field="fullCount" />
+						<g:Label ui:field="mForTemp"/>
 					</g:customCell>
 					<g:customCell>
-						<g:Label text="" ui:field="fullSuccessDensity" />
-					</g:customCell>
-					<g:customCell>
-						<g:Label text="" ui:field="lastMeanSpeed" />
-					</g:customCell>
-					<g:customCell>
-						<g:Label text="" ui:field="lastMeanDeviation" />
+						<g:Label text="" ui:field="lLastMeanDeviation" />
 					</g:customCell>
 				</g:row>
 			</g:Grid>
-		</g:VerticalPanel>
+			<g:Grid width="">
+				<g:row>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgMeanSpeed" elementCount="40" elementWidthPx="30" elementHeightPx="3" rangeEndValue="100"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgInSpeed" elementCount="10" elementHeightPx="8" elementWidthPx="8" rangeEndValue="10"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgTemp" elementCount="40" elementWidthPx="30" elementHeightPx="3" rangeEndValue="100"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgInTemp" elementCount="11" elementHeightPx="8" elementWidthPx="8" rangeEndValue="55"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgSuccessDensity" elementCount="40" elementWidthPx="30" elementHeightPx="3" rangeEndValue="100"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgInDensity" elementCount="7" elementHeightPx="8" elementWidthPx="8" rangeEndValue="35"/>
+					</g:customCell>
+				</g:row>
+			</g:Grid>
+		</g:HorizontalPanel>
 </ui:UiBinder> 

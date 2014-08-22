@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.trifle.fingerfing.client.widget">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+	<g:VerticalPanel>
+		<p1:SensorIndicator ui:field="indicators" />
+		<g:FocusPanel ui:field="focus">
+			<p1:KeyboardWidgetUI ui:field="keyboard" width="100%"
+				height="100%" />
+		</g:FocusPanel>
+		<p1:ExcerciseProgress ui:field="progress" />
+	</g:VerticalPanel>
+
+</ui:UiBinder> 

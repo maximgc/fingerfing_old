@@ -12,7 +12,6 @@ import com.google.gwt.i18n.client.HasDirection.Direction;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.AbsolutePanel;
-import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HasHorizontalAlignment.HorizontalAlignmentConstant;
 import com.google.gwt.user.client.ui.IsWidget;
@@ -329,12 +328,12 @@ public class KeyboardWidgetUI extends Composite implements KeyboardWidget {
 	public static class EffectCenterCard implements Effect{
 
 		public void apply(KeyWidget w) {
-			System.out.println("KeyWidget");
+//			System.out.println("KeyWidget");
 		}
 
 		@Override
 		public void apply(IsWidget w) {
-			System.out.println("Widget");
+//			System.out.println("Widget");
 		}
 
 	}

@@ -112,7 +112,7 @@ public class ExerciseController {
 		sc.addRecord(System.currentTimeMillis() - lastTimestamp, lastEvaluate);
 		bm.nextDate(sc.getLastMeanSpeed(), sc.getLastMeanInTempo(),
 				sc.getFullSuccessDensity(), lastEvaluate);
-		simpleScore = (long) sc.getStepSpeed();
+		simpleScore = 10; //(long) sc.getStepSpeed();
 		awardedScore = (long) (bm.getMultiplier() * simpleScore);
 		fullScore += awardedScore;
 		goNextExerciseKey();

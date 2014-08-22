@@ -54,9 +54,9 @@ public class ExcerciseProgress extends Composite{
 		return finalValue;
 	}
 
-	public void setFinalValue(long finalValue) {
+	public void setFinalValue(int finalValue) {
 		this.finalValue = finalValue;
-//		exProgress.setRangeLong(finalValue);
+		exProgress.setRangeEndValue(finalValue);
 		text.setText(typeName + ": " + curValue + "/" + finalValue);
 	}
 
@@ -64,10 +64,12 @@ public class ExcerciseProgress extends Composite{
 		return curValue;
 	}
 
-	public void setCurValue(long curValue) {
+	public void setCurValue(int curValue) {
 		this.curValue = curValue;
-		exProgress.setValue((double)curValue/finalValue);
+		exProgress.setValue(curValue);
+		exProgress.setTitle(typeName + ": " + curValue + "/" + finalValue);
 		text.setText(typeName + ": " + curValue + "/" + finalValue);
+		
 	}
 
 

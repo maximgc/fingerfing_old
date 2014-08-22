@@ -19,6 +19,7 @@ import com.trifle.fingerfing.client.resources.FFResources;
 import com.trifle.fingerfing.client.widget.Effects;
 import com.trifle.fingerfing.client.widget.ExcerciseProgress;
 import com.trifle.fingerfing.client.widget.KeyboardWidget;
+import com.trifle.fingerfing.client.widget.TrainerView;
 import com.trifle.fingerfing.client.widget.KeyboardWidget.KeyBlock;
 import com.trifle.fingerfing.client.widget.constructor.JSONConstructorWidget;
 import com.trifle.fingerfing.client.widget.newage.HorizontalProgressBar;
@@ -72,87 +73,15 @@ public class FingerFing implements EntryPoint {
 	
 	public void onModuleLoad() {
 		
-		final Label errorLabel = new Label();
-		final KeyboardWidget keyWidget = new KeyboardWidgetUI();
-		final FocusPanel fp = new FocusPanel();
-		final SensorIndicator sensorIndicator = new SensorIndicator();
-		final ExcerciseProgress ep = new ExcerciseProgress();
 
+
+		final TrainerView tv = new TrainerView();
+		RootPanel.get("mainWidgetField").add(tv);
+		
 		BeanManager bm = new BeanManager();
 		final JSONConstructorWidget jsonC = new JSONConstructorWidget(bm);
-		
-		fp.add(keyWidget);
-		KeyBlock keyBlock = bm.new KeyboardWidgetBeans().decodeKeyBlock(FFResources.INST.getKeyBlockBase().getText());
-		keyWidget.setKeyBlock(keyBlock);
-		AlternativeKeyLayout alternateveKeyLayoutRU = new AlternativeKeyLayout(
-				bm.new AlternativeKeyLayoutBeans().decodeLabelTextMap(FFResources.INST
-						.getAlternativeKeyLayoutRU().getText()));
-		keyWidget.setAlternateveKeyLayout(alternateveKeyLayoutRU);
-		
 
-		RootPanel.get("mainWidgetField").add(ep);
-		RootPanel.get("mainWidgetField").add(sensorIndicator);
-		RootPanel.get("mainWidgetField").add(fp);
-		RootPanel.get("mainWidgetField").add(jsonC);
-		RootPanel.get("errorWidgetField").add(errorLabel);
-
-		
-		final ExerciseController ex = new ExerciseController(bm.new WorkingSetsBeans().decodeWorkingSets(FFResources.INST.getWorkingSets().getText()), new Evaluator(), new StatCalcConvergent(), new BonusMultiplier());
-		
-		fp.addClickHandler(new ClickHandler() {
-
-			@Override
-			public void onClick(ClickEvent event) {
-				fp.setFocus(true);
-			}
-		});
-				
-		keyWidget.setEffectAll(Effects.effectDisable);
-		keyWidget.setEffect(ex.getWorkingSet(), Effects.effectEnable);
-		keyWidget.setEffect(ex.getExerciseKey(), Effects.effectExpect);
-		keyWidget.setEffectAll(new KeyboardWidgetUI.EffectCenterCard());
-
-		fp.addKeyDownHandler(new KeyDownHandler() {
-			@Override
-			public void onKeyDown(KeyDownEvent event) {
-				
-				NativeKey keyDown = NativeKey.getByNativeCode(event
-						.getNativeKeyCode());
-				
-				keyWidget.setEffect(ex.getExerciseKey(), Effects.effectDefault); 
-				
-				ex.setAnswerKey(keyDown); //FIXME баг при finalCount=1 или 2, новый workingSet почемуто не отображется
-				
-				
-				sensorIndicator.setData(ex.getSc().getFullCount(),
-						ex.getSc().getFullTimeMillis(),
-						ex.getSc().getFullSuccessDensity(),
-						ex.getSc().getFullMeanSpeed(), 
-						ex.getSc().getLastMeanSpeed(),
-						ex.getSc().getLastMeanInTempo());
-				
-				sensorIndicator.setMultiplers(ex.getFullScore(), ex.getAwardedScore(), ex.getSimpleScore(), ex.getBm().getMultiplier(), ex.getBm().getForSpeed(), ex.getBm().getForTemp(), ex.getBm().getForCorrect(), ex.getBm().getForSuccess());
-				
-				ep.setType(ex.getType());
-				ep.setFinalValue(ex.getFinalValue());
-				ep.setCurValue(ex.getCurValue());
-				keyWidget.setEffect(keyDown, Effects.effectPress);
-				keyWidget.setEffectAll(Effects.effectDisable);
-				keyWidget.setEffect(ex.getWorkingSet(), Effects.effectEnable); //FIXME Очень неэффективно
-			}
-		});
-
-		fp.addKeyUpHandler(new KeyUpHandler() {
-			@Override
-			public void onKeyUp(KeyUpEvent event) {
-				NativeKey keyUp = NativeKey.getByNativeCode(event
-						.getNativeKeyCode());
-				keyWidget.setEffect(keyUp, Effects.effectDefault);
-				keyWidget.setEffect(ex.getExerciseKey(), Effects.effectExpect);
-			}
-		});
-		
-		fp.setFocus(true);
+		tv.start();
 	}
 
 	// fp.addKeyDownHandler(new KeyDownHandler() {

@@ -14,6 +14,8 @@ public interface StatCalc {
 	public abstract double getLastMeanSpeed();
 	
 	public abstract double getLastMeanInTempo();
+	
+	public abstract double getLastMaxMeanSpeed();
 
 
 	

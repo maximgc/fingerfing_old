@@ -16,19 +16,13 @@
 			margin: 1px;
 		}
 		
-		.progressbarFullbar {
+ 		.progressbarFullbar {
 			margin: 1px;
-			background: #77f;
 		}
 		
 		.progressbarBlankbar {
 			margin: 1px;
-			background: #eee;
-		}
+		} 
 		</ui:style>
-	<g:VerticalPanel>
-		<g:Label ui:field="topLabel" horizontalAlignment="ALIGN_CENTER" />
 		<g:Grid ui:field="elementBar" />
-		<g:Label ui:field="valueLabel" horizontalAlignment="ALIGN_CENTER" />
-	</g:VerticalPanel>
 </ui:UiBinder>  

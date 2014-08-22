@@ -27,7 +27,7 @@ h1 {
 }
 
 .keyboardKey {
-	background-color: rgb(241, 241, 241);
+	/* background-color: rgb(241, 241, 241); */
 }
 
 /** Set ids using widget.getElement().setId("idOfElement") */

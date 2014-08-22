@@ -7,7 +7,7 @@
 	}
 	</ui:style>
 	<g:VerticalPanel>
-		<p1:HorizontalProgressBar  segmentCount="150" segmentWidthPx="3" segmentHeightPx="7" ui:field="exProgress" />
+		<p1:HorizontalProgressBar  elementCount="150" elementWidthPx="3" elementHeightPx="5" ui:field="exProgress" />
 		<g:Label ui:field="text" />
 	</g:VerticalPanel>
 </ui:UiBinder> 
