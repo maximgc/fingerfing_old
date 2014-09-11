@@ -4,7 +4,7 @@ import com.google.gwt.core.shared.GWT;
 import com.google.web.bindery.autobean.shared.AutoBeanCodex;
 import com.google.web.bindery.autobean.shared.AutoBeanUtils;
 import com.trifle.fingerfing.client.AlternativeKeyLayout;
-import com.trifle.fingerfing.client.lesson.ExerciseController;
+import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
 import com.trifle.fingerfing.client.widget.KeyboardWidget;
 
 public class BeanManager {
@@ -33,17 +33,17 @@ public class BeanManager {
 	}
 	
 	public class WorkingSetsBeans {
-		public ExerciseController.WorkingSets createWorkingSets() {
+		public ExerciseControllerOld1.WorkingSets createWorkingSets() {
 			return f.makeList().as();
 		}
 
-		public String encodeWorkingSets(ExerciseController.WorkingSets b) {
+		public String encodeWorkingSets(ExerciseControllerOld1.WorkingSets b) {
 			return AutoBeanCodex.encode(AutoBeanUtils.getAutoBean(b))
 					.getPayload();
 		}
 
-		public ExerciseController.WorkingSets decodeWorkingSets(String json) {
-			return AutoBeanCodex.decode(f, ExerciseController.WorkingSets.class, json).as();
+		public ExerciseControllerOld1.WorkingSets decodeWorkingSets(String json) {
+			return AutoBeanCodex.decode(f, ExerciseControllerOld1.WorkingSets.class, json).as();
 		}
 	}
 	

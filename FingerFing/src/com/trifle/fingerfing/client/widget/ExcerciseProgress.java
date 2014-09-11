@@ -6,7 +6,7 @@ import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.gwt.user.client.ui.Label;
-import com.trifle.fingerfing.client.lesson.ExerciseController;
+import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
 import com.trifle.fingerfing.client.widget.newage.ProgressBar;
 
 public class ExcerciseProgress extends Composite{
@@ -37,11 +37,11 @@ public class ExcerciseProgress extends Composite{
 	public void setType(int type) {
 		this.type = type;
 		switch (type) {
-		case ExerciseController.TYPE_COUNT:
+		case ExerciseControllerOld1.TYPE_COUNT:
 			typeName = "Count";
 			break;
 
-		case ExerciseController.TYPE_SCORE:
+		case ExerciseControllerOld1.TYPE_SCORE:
 			typeName = "Score";
 			break;
 		default:

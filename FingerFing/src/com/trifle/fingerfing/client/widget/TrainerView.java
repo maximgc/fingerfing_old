@@ -13,9 +13,9 @@ import com.trifle.fingerfing.client.AlternativeKeyLayout;
 import com.trifle.fingerfing.client.Evaluator;
 import com.trifle.fingerfing.client.NativeKey;
 import com.trifle.fingerfing.client.calcs.BonusMultiplier;
-import com.trifle.fingerfing.client.calcs.StatCalcConvergent;
+import com.trifle.fingerfing.client.calcs.StatCalcConvergentOld1;
 import com.trifle.fingerfing.client.json.BeanManager;
-import com.trifle.fingerfing.client.lesson.ExerciseController;
+import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
 import com.trifle.fingerfing.client.resources.FFResources;
 import com.trifle.fingerfing.client.widget.KeyboardWidget.KeyBlock;
 import com.google.gwt.uibinder.client.UiHandler;
@@ -41,25 +41,25 @@ public class TrainerView extends Composite {
 		myInit();
 	}
 
-	ExerciseController ex;
+	ExerciseControllerOld1 ex;
 
 	private void myInit() {
-		BeanManager bm = new BeanManager();
+		BeanManager beanManger = new BeanManager();
 
-		KeyBlock keyBlock = bm.new KeyboardWidgetBeans()
+		KeyBlock keyBlock = beanManger.new KeyboardWidgetBeans()
 				.decodeKeyBlock(FFResources.INST.getKeyBlockBase().getText());
 		AlternativeKeyLayout alternateveKeyLayoutRU = new AlternativeKeyLayout(
-				bm.new AlternativeKeyLayoutBeans()
+				beanManger.new AlternativeKeyLayoutBeans()
 						.decodeLabelTextMap(FFResources.INST
 								.getAlternativeKeyLayoutRU().getText()));
 
 		keyboard.setKeyBlock(keyBlock);
 		keyboard.setAlternateveKeyLayout(alternateveKeyLayoutRU);
 
-		ex = new ExerciseController(
-				bm.new WorkingSetsBeans().decodeWorkingSets(FFResources.INST
+		ex = new ExerciseControllerOld1(
+				beanManger.new WorkingSetsBeans().decodeWorkingSets(FFResources.INST
 						.getWorkingSets().getText()), new Evaluator(),
-				new StatCalcConvergent(), new BonusMultiplier());
+				new StatCalcConvergentOld1(), new BonusMultiplier());
 
 		keyboard.setEffectAll(Effects.effectDisable);
 		keyboard.setEffect(ex.getWorkingSet(), Effects.effectEnable);
@@ -90,7 +90,7 @@ public class TrainerView extends Composite {
 		indicators.setLastMeanSpeed(ex.getSc().getLastMeanSpeed());
 		indicators.setAllTime(ex.getSc().getFullTimeMillis());
 		indicators.setCount(ex.getSc().getFullCount());
-//		indicators.setInSpeed(ex.getBm().getLastCorrect());
+		// indicators.setInSpeed(ex.getBm().getLastCorrect());
 		indicators.setInDensity(ex.getBm().getLastCorrect());
 		indicators.setInTemp(ex.getBm().getLastInTemp());
 
@@ -105,10 +105,10 @@ public class TrainerView extends Composite {
 		progress.setFinalValue((int) ex.getFinalValue());
 		progress.setCurValue((int) ex.getCurValue());
 		keyboard.setEffect(keyDown, Effects.effectPress);
-		keyboard.setEffectAll(Effects.effectDisable);
-		keyboard.setEffect(ex.getWorkingSet(), Effects.effectEnable); // FIXME
-																		// Очень
-																		// неэффективно
+
+		// FIXME Очень неэффективно это же при каждом нажатии!
+		// keyboard.setEffectAll(Effects.effectDisable);
+		// keyboard.setEffect(ex.getWorkingSet(), Effects.effectEnable);
 	}
 
 	@UiHandler("focus")

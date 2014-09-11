@@ -87,12 +87,11 @@ public class KeyboardWidgetUI extends Composite implements KeyboardWidget {
 
 	private final int LEFT_MARGIN = 10;
 	private final int TOP_MARGIN = 10;
-	private final int WIDTH_KEY = 45;
-	private final int HEIGHT_KEY = 45;
-	private final int VERTICAL_SPACE = 6;
-	private final int HORIZONTAL_SPACE = 6;
+	private final int WIDTH_KEY = 35;
+	private final int HEIGHT_KEY = 35;
+	private final int VERTICAL_SPACE = 16;
+	private final int HORIZONTAL_SPACE = 16;
 	private final int HORIZONTAL_SHIFT = 0;
-	// private final int HORIZONTAL_SHIFT = 7;
 
 	private final int LABEL_LEFT_MARGIN = 5;
 	private final int LABEL_RIGHT_MARGIN = 10;
@@ -125,10 +124,10 @@ public class KeyboardWidgetUI extends Composite implements KeyboardWidget {
 			setDown(false);
 		}
 		
-		public KeyButton(String arg0) {
-			super(arg0);
-			setDown(false);
-		}
+//		public KeyButton(String arg0) {
+//			super(arg0);
+////			setDown(false);
+//		}
 
 		@Override
 		public int getLeft() {
@@ -273,7 +272,9 @@ public class KeyboardWidgetUI extends Composite implements KeyboardWidget {
 				l.setWidth(width - LABEL_LEFT_MARGIN - LABEL_RIGHT_MARGIN + "px");
 				b.setWidth(width + "px");
 				b.setHeight(HEIGHT_KEY + "px");
-				b.setStyleName("keyboardKey");
+				
+				
+//				b.setStyleName("keyboardKey");
 				labelMap.addWidget(k.getNativeKey(), l);
 				buttonMap.addWidget(k.getNativeKey(), b);
 

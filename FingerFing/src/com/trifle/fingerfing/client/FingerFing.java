@@ -12,9 +12,9 @@ import com.google.gwt.user.client.ui.FocusPanel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.trifle.fingerfing.client.calcs.BonusMultiplier;
-import com.trifle.fingerfing.client.calcs.StatCalcConvergent;
+import com.trifle.fingerfing.client.calcs.StatCalcConvergentOld1;
 import com.trifle.fingerfing.client.json.BeanManager;
-import com.trifle.fingerfing.client.lesson.ExerciseController;
+import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
 import com.trifle.fingerfing.client.resources.FFResources;
 import com.trifle.fingerfing.client.widget.Effects;
 import com.trifle.fingerfing.client.widget.ExcerciseProgress;
@@ -34,7 +34,7 @@ import com.trifle.fingerfing.client.widget.SensorIndicator;
 
 public class FingerFing implements EntryPoint {
 
-	 int i = 100;
+//	 int i = 100;
 	
 //	@Override
 //	public void onModuleLoad() {

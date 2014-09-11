@@ -2,14 +2,11 @@ package com.trifle.fingerfing.client.calcs;
 
 public interface StatCalc {
 
-	public abstract void addRecord(long timestamp, int eval);
+//	public abstract void addStep(long stepTime, int eval);
 
 	
 	public abstract double getStepSpeed();
 
-	public abstract String toDebugString();
-	
-	
 	
 	public abstract double getLastMeanSpeed();
 	
@@ -26,6 +23,10 @@ public interface StatCalc {
 	public abstract double getFullMeanSpeed();
 	
 	public abstract double getFullSuccessDensity();
-
 	
+	
+	
+	public abstract void addStep(long duration, int env);
+
+
 }
