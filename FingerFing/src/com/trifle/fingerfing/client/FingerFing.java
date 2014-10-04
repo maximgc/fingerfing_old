@@ -21,6 +21,7 @@ import com.trifle.fingerfing.client.widget.ExcerciseProgress;
 import com.trifle.fingerfing.client.widget.KeyboardWidget;
 import com.trifle.fingerfing.client.widget.TrainerView;
 import com.trifle.fingerfing.client.widget.KeyboardWidget.KeyBlock;
+import com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget;
 import com.trifle.fingerfing.client.widget.constructor.JSONConstructorWidget;
 import com.trifle.fingerfing.client.widget.newage.HorizontalProgressBar;
 import com.trifle.fingerfing.client.widget.newage.ProgressBarBase;
@@ -70,19 +71,27 @@ public class FingerFing implements EntryPoint {
 //	}
 
 	
-	
 	public void onModuleLoad() {
+	
+		CourseConstructorWidget ccw = new CourseConstructorWidget(new BeanManager());
+		RootPanel.get("mainWidgetField").add(ccw);
 		
-
-
-		final TrainerView tv = new TrainerView();
-		RootPanel.get("mainWidgetField").add(tv);
-		
-		BeanManager bm = new BeanManager();
-		final JSONConstructorWidget jsonC = new JSONConstructorWidget(bm);
-
-		tv.start();
 	}
+
+	
+	
+//	public void onModuleLoad() {
+//		
+//
+//
+//		final TrainerView tv = new TrainerView();
+//		RootPanel.get("mainWidgetField").add(tv);
+//		
+//		BeanManager bm = new BeanManager();
+//		final JSONConstructorWidget jsonC = new JSONConstructorWidget(bm);
+//
+//		tv.start();
+//	}
 
 	// fp.addKeyDownHandler(new KeyDownHandler() {
 	//
