@@ -1,6 +1,6 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
-	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:c="urn:import:com.google.gwt.user.cellview.client">
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
 	<ui:style>
 	.important {
 		font-weight: bold;
@@ -8,16 +8,14 @@
 	</ui:style>
 	<g:HTMLPanel>
 		<g:HorizontalPanel>
-			<g:HorizontalPanel ui:field="navPanel">
-<!-- 				<c:CellTree ui:field="navTree"></c:CellTree> -->
-			</g:HorizontalPanel>
+			<g:HorizontalPanel ui:field="navPanel" />
 			<g:VerticalPanel ui:field="actPanel">
 				<g:Button ui:field="createCourse" text="createCourse" />
 				<g:Button ui:field="createLevel" text="createLevel" />
 				<g:Button text="createLesson" ui:field="createLesson" />
 				<g:Button ui:field="createExercise" text="createExercise" />
-				<g:ListBox ui:field="passMethod" selectedIndex="0" >
-					<g:item  value='order'>
+				<g:ListBox ui:field="passMethod" selectedIndex="0">
+					<g:item value='order'>
 						по порядку
 					</g:item>
 					<g:item value='random'>
@@ -25,13 +23,13 @@
 					</g:item>
 				</g:ListBox>
 				<g:IntegerBox ui:field="finalScore" name="Final Score" value="1000" />
-				<g:TextBox ui:field="inputKeys" readOnly="true" />
+				<g:TextBox ui:field="inputKeys" />
 			</g:VerticalPanel>
 			<g:VerticalPanel ui:field="jsonPanel">
 				<g:Button ui:field="generateJSON" text="generateJSON">genJSON</g:Button>
 				<g:TextArea visibleLines="5" width="443px" height="231px"
 					ui:field="jsonTextArea" />
-			</g:VerticalPanel>
+			</g:VerticalPanel> 
 		</g:HorizontalPanel>
 
 	</g:HTMLPanel>

@@ -37,7 +37,6 @@ import com.trifle.fingerfing.client.lesson.Course.CourseDescriptor;
 import com.trifle.fingerfing.client.lesson.Course.ExerciseDescriptor;
 import com.trifle.fingerfing.client.lesson.Course.LessonDescriptor;
 import com.trifle.fingerfing.client.lesson.Course.LevelDescriptor;
-import com.trifle.fingerfing.client.lesson.ExersiceImpl;
 
 public class CourseConstructorWidget extends Composite {
 
