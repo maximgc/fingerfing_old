@@ -8,7 +8,15 @@ public interface Course {
 
 	public abstract CourseDescriptor getDescriptor();
 
-	public static interface CourseDescriptor {
+	public static interface Descriptor {
+		
+		String getName();
+		
+		void setName(String name);
+		
+	}
+	
+	public static interface CourseDescriptor extends Descriptor{
 		
 		String getName();
 		
@@ -20,7 +28,7 @@ public interface Course {
 
 	}
 
-	public static interface LevelDescriptor {
+	public static interface LevelDescriptor extends Descriptor {
 		
 		String getName();
 		
@@ -32,7 +40,7 @@ public interface Course {
 
 	}
 
-	public static interface LessonDescriptor {
+	public static interface LessonDescriptor extends Descriptor {
 		
 		String getName();
 		
@@ -44,7 +52,7 @@ public interface Course {
 
 	}
 
-	public static interface ExerciseDescriptor {
+	public static interface ExerciseDescriptor extends Descriptor {
 		
 		String getName();
 		

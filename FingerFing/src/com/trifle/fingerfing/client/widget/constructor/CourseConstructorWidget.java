@@ -1,45 +1,42 @@
 package com.trifle.fingerfing.client.widget.constructor;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import com.google.gwt.cell.client.AbstractCell;
-import com.google.gwt.cell.client.Cell;
 import com.google.gwt.core.client.GWT;
+import com.google.gwt.event.dom.client.ChangeEvent;
 import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.KeyUpEvent;
 import com.google.gwt.safehtml.shared.SafeHtmlBuilder;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
-import com.google.gwt.user.cellview.client.CellTable;
 import com.google.gwt.user.cellview.client.CellTree;
-import com.google.gwt.user.cellview.client.TextColumn;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.Widget;
-import com.trifle.fingerfing.client.NativeKey;
-import com.trifle.fingerfing.client.json.BeanManager;
-import com.trifle.fingerfing.client.lesson.Course;
-import com.trifle.fingerfing.client.lesson.Course.CourseDescriptor;
-import com.trifle.fingerfing.client.lesson.Course.ExerciseDescriptor;
-import com.trifle.fingerfing.client.lesson.Course.LessonDescriptor;
-import com.trifle.fingerfing.client.lesson.Course.LevelDescriptor;
+import com.google.gwt.user.client.ui.HorizontalPanel;
+import com.google.gwt.user.client.ui.IntegerBox;
+import com.google.gwt.user.client.ui.ListBox;
+import com.google.gwt.user.client.ui.TextArea;
+import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
-import com.google.gwt.view.client.CellPreviewEvent;
+import com.google.gwt.user.client.ui.Widget;
 import com.google.gwt.view.client.ListDataProvider;
 import com.google.gwt.view.client.SelectionChangeEvent;
 import com.google.gwt.view.client.SingleSelectionModel;
 import com.google.gwt.view.client.TreeViewModel;
-import com.google.gwt.user.client.ui.TextArea;
-import com.google.gwt.user.client.ui.HorizontalPanel;
-import com.google.gwt.user.client.ui.TextBox;
-import com.google.gwt.event.dom.client.KeyUpEvent;
-import com.google.gwt.user.client.ui.IntegerBox;
-import com.google.gwt.user.client.ui.ListBox;
-import com.google.gwt.event.dom.client.ChangeEvent;
+import com.trifle.fingerfing.client.NativeKey;
+import com.trifle.fingerfing.client.json.BeanManager;
+import com.trifle.fingerfing.client.json.BeanManager.CourseDescriptorBeans;
+import com.trifle.fingerfing.client.lesson.Course;
+import com.trifle.fingerfing.client.lesson.Course.Descriptor;
+import com.trifle.fingerfing.client.lesson.Course.CourseDescriptor;
+import com.trifle.fingerfing.client.lesson.Course.ExerciseDescriptor;
+import com.trifle.fingerfing.client.lesson.Course.LessonDescriptor;
+import com.trifle.fingerfing.client.lesson.Course.LevelDescriptor;
 
 public class CourseConstructorWidget extends Composite {
 
@@ -74,13 +71,9 @@ public class CourseConstructorWidget extends Composite {
 			UiBinder<Widget, CourseConstructorWidget> {
 	}
 
-	public CourseConstructorWidget(BeanManager bm) {
+	public CourseConstructorWidget(CourseDescriptorBeans cb) {
 		initWidget(uiBinder.createAndBindUi(this));
-		cb = bm.new CourseDescriptorBeans();
-		initSelections();
-	}
-
-	private void initSelections() {
+		this.cb = cb;
 
 		levelSelection = new SingleSelectionModel<Course.LevelDescriptor>();
 		lessonSelection = new SingleSelectionModel<Course.LessonDescriptor>();
@@ -90,77 +83,187 @@ public class CourseConstructorWidget extends Composite {
 				.addSelectionChangeHandler(new SelectionChangeEvent.Handler() {
 					@Override
 					public void onSelectionChange(SelectionChangeEvent event) {
-						curLevelDescriptor = levelSelection.getSelectedObject();
+//						lessonSelection.clear();
+//						exerciseSelection.clear();
 					}
 				});
-
 		lessonSelection
 				.addSelectionChangeHandler(new SelectionChangeEvent.Handler() {
 					@Override
 					public void onSelectionChange(SelectionChangeEvent event) {
-						curLessonDescriptor = lessonSelection
-								.getSelectedObject();
+//						levelSelection.clear();
+//						exerciseSelection.clear();
 					}
 				});
-
 		exerciseSelection
 				.addSelectionChangeHandler(new SelectionChangeEvent.Handler() {
 					@Override
 					public void onSelectionChange(SelectionChangeEvent event) {
-						curExerciseDescriptor = exerciseSelection
-								.getSelectedObject();
+//						levelSelection.clear();
+//						lessonSelection.clear();
+						finalScore.setText(exerciseSelection.getSelectedObject().getFinalScore());
+						switch (exerciseSelection.getSelectedObject().getMethodSelectName()) {
+						case "order":
+							passMethod.setSelectedIndex(0);
+							break;
+						case "random":
+							passMethod.setSelectedIndex(1);
+							break;
+
+						default:
+							passMethod.setSelectedIndex(0);
+							break;
+						}
 					}
 				});
 
 	}
 
-	class CourseTreeModel implements TreeViewModel {
+	private BeanManager.CourseDescriptorBeans cb;
 
-		@SuppressWarnings({ "rawtypes", "unchecked" })
+	// Navigation tree
+	// @UiField
+	CellTree navTree;
+
+	// Selectors
+	private SingleSelectionModel<LevelDescriptor> levelSelection;
+
+	private SingleSelectionModel<LessonDescriptor> lessonSelection;
+
+	private SingleSelectionModel<ExerciseDescriptor> exerciseSelection;
+
+	// Current selected Descriptors
+	private CourseDescriptor curCourseDescriptor;
+
+	// Provider's Map
+	// private Map<Descriptor, ListDataProvider<Descriptor>> providers = new
+	// HashMap<Descriptor, ListDataProvider<Descriptor>>();
+
+	private Map<CourseDescriptor, ListDataProvider<LevelDescriptor>> levelProviders = new HashMap<CourseDescriptor, ListDataProvider<LevelDescriptor>>();
+
+	private Map<LevelDescriptor, ListDataProvider<LessonDescriptor>> lessonProviders = new HashMap<LevelDescriptor, ListDataProvider<LessonDescriptor>>();;
+
+	private Map<LessonDescriptor, ListDataProvider<ExerciseDescriptor>> exerciseProviders = new HashMap<LessonDescriptor, ListDataProvider<ExerciseDescriptor>>();;
+
+	@UiHandler("createCourse")
+	void onCreateCourseClick(ClickEvent event) {
+		if (navTree != null)
+			navTree.removeFromParent();
+		CourseDescriptor cd = cb.createCourseDescriptor();
+		cd.setName("Noname Course");
+		cd.setLevels(new ArrayList<Course.LevelDescriptor>());
+		
+		levelProviders.put(cd,
+				new ListDataProvider<LevelDescriptor>(cd.getLevels()));
+		curCourseDescriptor = cd;
+		navTree = new CellTree(new CourseTreeModel(), cd);
+		navPanel.add(navTree);
+	}
+
+	@UiHandler("createLevel")
+	void onCreateLevelClick(ClickEvent event) {
+		List<LevelDescriptor> levelList = levelProviders.get(
+				curCourseDescriptor).getList();
+
+		LevelDescriptor ld = cb.createLevelDescriptor();
+		ld.setName("Level " + (levelList.size() + 1));
+		ld.setLessons(new ArrayList<LessonDescriptor>());
+		levelList.add(ld);
+
+		lessonProviders.put(ld, new ListDataProvider<Course.LessonDescriptor>(
+				ld.getLessons()));
+		levelSelection.setSelected(ld, true);
+	}
+
+	@UiHandler("createLesson")
+	void onCreateLessonClick(ClickEvent event) {
+		List<LessonDescriptor> lessonList = lessonProviders.get(
+				levelSelection.getSelectedObject()).getList();
+
+		LessonDescriptor ld = cb.createLessonDescriptor();
+		ld.setName("Lesson " + (lessonList.size() + 1));
+		ld.setExercises(new ArrayList<Course.ExerciseDescriptor>());
+		lessonList.add(ld);
+
+		exerciseProviders.put(
+				ld,
+				new ListDataProvider<Course.ExerciseDescriptor>(ld
+						.getExercises()));
+		lessonSelection.setSelected(ld, true);
+	}
+
+	@UiHandler("createExercise")
+	void onCreateExerciseClick(ClickEvent event) {
+		List<ExerciseDescriptor> exList = exerciseProviders.get(
+				lessonSelection.getSelectedObject()).getList();
+
+		ExerciseDescriptor ed = cb.createExerciseDescriptor();
+		ed.setName("Exercise " + (exList.size() + 1));
+		ed.setKeySequence(new ArrayList<NativeKey>());
+		ed.setFinalScore(finalScore.getText());
+		ed.setMethodSelectName(passMethod.getValue(passMethod
+				.getSelectedIndex()));
+		exList.add(ed);
+
+		exerciseSelection.setSelected(ed, true);
+	}
+
+	@UiHandler("inputKeys")
+	void onInputKeysKeyUp(KeyUpEvent event) {
+		if (exerciseSelection.getSelectedObject() != null) {
+			exerciseSelection.getSelectedObject().getKeySequence()
+					.add(NativeKey.getByNativeCode(event.getNativeKeyCode()));
+		}
+	}
+
+	@UiHandler("passMethod")
+	void onPassMethodChange(ChangeEvent event) {
+		if (exerciseSelection.getSelectedObject() != null) {
+			exerciseSelection.getSelectedObject().setMethodSelectName(
+					passMethod.getValue(passMethod.getSelectedIndex()));
+		}
+	}
+
+	@UiHandler("finalScore")
+	void onFinalScoreChange(ChangeEvent event) {
+		if (exerciseSelection.getSelectedObject() != null) {
+			exerciseSelection.getSelectedObject().setFinalScore(
+					finalScore.getText());
+		}
+	}
+
+	@UiHandler("generateJSON")
+	void onGenerateJSONClick(ClickEvent event) {
+		jsonTextArea.setText(cb.encodeCourseDescriptor(curCourseDescriptor));
+	}
+
+	private class CourseTreeModel implements TreeViewModel {
+
+		class CellCourse<T extends Descriptor> extends AbstractCell<T> {
+			@Override
+			public void render(com.google.gwt.cell.client.Cell.Context context,
+					Descriptor value, SafeHtmlBuilder sb) {
+				sb.appendEscaped(value.getName());
+			}
+		};
+
 		@Override
 		public <T> NodeInfo<?> getNodeInfo(T value) {
-			if (value == null && curCourseDescriptor != null) {
 
-				Cell<LevelDescriptor> levelTreeCell = new AbstractCell<Course.LevelDescriptor>() {
-					@Override
-					public void render(
-							com.google.gwt.cell.client.Cell.Context context,
-							LevelDescriptor value, SafeHtmlBuilder sb) {
-						sb.appendEscaped(value.getName());
-					}
-				};
-
-				return new DefaultNodeInfo<LevelDescriptor>(levelProviders.get(curCourseDescriptor.getLevels()),
-						levelTreeCell, levelSelection, null);
-			}
-
-			if (value instanceof LevelDescriptor) {
-				Cell<LessonDescriptor> lessonTreeCell = new AbstractCell<Course.LessonDescriptor>() {
-					@Override
-					public void render(
-							com.google.gwt.cell.client.Cell.Context context,
-							LessonDescriptor value, SafeHtmlBuilder sb) {
-						sb.appendEscaped(value.getName());
-					}
-				};
-
-				return new DefaultNodeInfo<LessonDescriptor>(lessonProviders.get(((LevelDescriptor) value).getLessons()),
-						lessonTreeCell, lessonSelection, null);
-			}
-
-			if (value instanceof LessonDescriptor) {
-				Cell<ExerciseDescriptor> exerciseTreeCell = new AbstractCell<Course.ExerciseDescriptor>() {
-					@Override
-					public void render(
-							com.google.gwt.cell.client.Cell.Context context,
-							ExerciseDescriptor value, SafeHtmlBuilder sb) {
-						sb.appendEscaped(value.getName());
-					}
-				};
-
-				return new DefaultNodeInfo<ExerciseDescriptor>(
-						exerciseProviders.get(((LessonDescriptor) value).getExercises()), exerciseTreeCell, exerciseSelection,
+			if (value instanceof CourseDescriptor) {
+				return new DefaultNodeInfo<LevelDescriptor>(
+						levelProviders.get(value),
+						new CellCourse<LevelDescriptor>(), levelSelection, null);
+			} else if (value instanceof LevelDescriptor) {
+				return new DefaultNodeInfo<LessonDescriptor>(
+						lessonProviders.get(value),
+						new CellCourse<LessonDescriptor>(), lessonSelection,
 						null);
+			} else if (value instanceof LessonDescriptor) {
+				return new DefaultNodeInfo<ExerciseDescriptor>(
+						exerciseProviders.get(value),
+						new CellCourse<ExerciseDescriptor>(),
+						exerciseSelection, null);
 			}
 
 			return null;
@@ -173,139 +276,4 @@ public class CourseConstructorWidget extends Composite {
 
 	}
 
-	private void initNavTree() {
-		TreeViewModel model = new CourseTreeModel();
-
-		navTree = new CellTree(model, null);
-
-		navPanel.add(navTree);
-	}
-
-	private BeanManager.CourseDescriptorBeans cb;
-
-	// Current selected Descriptors
-	private CourseDescriptor curCourseDescriptor;
-
-	private LevelDescriptor curLevelDescriptor;
-
-	private LessonDescriptor curLessonDescriptor;
-
-	private ExerciseDescriptor curExerciseDescriptor;
-
-	// DataProviders
-	private ListDataProvider<LevelDescriptor> curLevelsProvider;
-
-	private ListDataProvider<LessonDescriptor> curLessonsProvider;
-
-	private ListDataProvider<ExerciseDescriptor> curExercisesProvider;
-	
-	//Provider's Map
-	
-	private Map<List<LevelDescriptor>, ListDataProvider<LevelDescriptor>> levelProviders;
-
-	private Map<List<LessonDescriptor> , ListDataProvider<LessonDescriptor>> lessonProviders;
-
-	private Map<List<ExerciseDescriptor> , ListDataProvider<ExerciseDescriptor>> exerciseProviders;
-
-	// Navigation tree
-	CellTree navTree;
-
-	// Selectors
-	private SingleSelectionModel<LevelDescriptor> levelSelection;
-
-	private SingleSelectionModel<LessonDescriptor> lessonSelection;
-
-	private SingleSelectionModel<ExerciseDescriptor> exerciseSelection;
-
-	private void createCourse() {
-		curCourseDescriptor = cb.createCourseDescriptor();
-		curCourseDescriptor.setName("Noname Course");
-		List<LevelDescriptor> levelList = new ArrayList<LevelDescriptor>();
-		curCourseDescriptor.setLevels(levelList);
-		curLevelsProvider = new ListDataProvider<Course.LevelDescriptor>(
-				levelList);
-		levelProviders.put(levelList, curLevelsProvider);
-	}
-
-	private void createLevel() {
-		curLevelDescriptor = cb.createLevelDescriptor();
-		curLevelDescriptor.setName("Level "
-				+ (curLevelsProvider.getList().size() + 1));
-		List<LessonDescriptor> lessonList = new ArrayList<LessonDescriptor>();
-		curLevelDescriptor.setLessons(lessonList);
-		curLessonsProvider = new ListDataProvider<Course.LessonDescriptor>(
-				lessonList);
-		curLevelsProvider.getList().add(curLevelDescriptor);
-		lessonProviders.put(lessonList, curLessonsProvider);
-	}
-
-	private void createLesson() {
-		curLessonDescriptor = cb.createLessonDescriptor();
-		curLessonDescriptor.setName("Lesson "
-				+ (curLessonsProvider.getList().size() + 1));
-		List<ExerciseDescriptor> exercisesList = new ArrayList<ExerciseDescriptor>();
-		curLessonDescriptor.setExercises(exercisesList);
-		curExercisesProvider = new ListDataProvider<Course.ExerciseDescriptor>(
-				exercisesList);
-		curLessonsProvider.getList().add(curLessonDescriptor);
-		exerciseProviders.put(exercisesList, curExercisesProvider);
-	}
-
-	private void createExercise() {
-		curExerciseDescriptor = cb.createExerciseDescriptor();
-		curExerciseDescriptor.setName("Exercise "
-				+ (curExercisesProvider.getList().size() + 1));
-		List<NativeKey> nkList = new ArrayList<NativeKey>();
-		curExerciseDescriptor.setKeySequence(nkList);
-		curExerciseDescriptor.setFinalScore(finalScore.getValue().toString());
-		curExerciseDescriptor.setMethodSelectName(passMethod
-				.getValue(passMethod.getSelectedIndex()));
-		curExercisesProvider.getList().add(curExerciseDescriptor);
-	}
-
-	@UiHandler("createCourse")
-	void onCreateCourseClick(ClickEvent event) {
-		createCourse();
-		initNavTree();
-	}
-
-	@UiHandler("createLevel")
-	void onCreateLevelClick(ClickEvent event) {
-		createLevel();
-		// levelSelection.setSelected(curLevelDescriptor, true);
-	}
-
-	@UiHandler("createLesson")
-	void onCreateLessonClick(ClickEvent event) {
-		createLesson();
-		// lessonSelection.setSelected(curLessonDescriptor, true);
-	}
-
-	@UiHandler("createExercise")
-	void onCreateExerciseClick(ClickEvent event) {
-		createExercise();
-		// exerciseSelection.setSelected(curExerciseDescriptor, true);
-	}
-
-	@UiHandler("inputKeys")
-	void onInputKeysKeyUp(KeyUpEvent event) {
-		curExerciseDescriptor.getKeySequence().add(
-				NativeKey.getByNativeCode(event.getNativeKeyCode()));
-	}
-
-	@UiHandler("passMethod")
-	void onPassMethodChange(ChangeEvent event) {
-		curExerciseDescriptor.setMethodSelectName(passMethod
-				.getValue(passMethod.getSelectedIndex()));
-	}
-
-	@UiHandler("finalScore")
-	void onFinalScoreChange(ChangeEvent event) {
-		curExerciseDescriptor.setFinalScore(finalScore.getValue().toString());
-	}
-
-	@UiHandler("generateJSON")
-	void onGenerateJSONClick(ClickEvent event) {
-		jsonTextArea.setText(cb.encodeCourseDescriptor(curCourseDescriptor));
-	}
 }
