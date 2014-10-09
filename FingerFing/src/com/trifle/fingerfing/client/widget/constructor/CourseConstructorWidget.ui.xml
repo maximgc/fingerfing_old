@@ -29,7 +29,7 @@
 				<g:Button ui:field="generateJSON" text="generateJSON">genJSON</g:Button>
 				<g:TextArea visibleLines="5" width="443px" height="231px"
 					ui:field="jsonTextArea" />
-			</g:VerticalPanel>
+			</g:VerticalPanel> 
 		</g:HorizontalPanel>
 
 	</g:HTMLPanel>

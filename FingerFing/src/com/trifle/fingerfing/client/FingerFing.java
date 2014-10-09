@@ -73,7 +73,7 @@ public class FingerFing implements EntryPoint {
 	
 	public void onModuleLoad() {
 	
-		CourseConstructorWidget ccw = new CourseConstructorWidget(new BeanManager());
+		CourseConstructorWidget ccw = new CourseConstructorWidget(new BeanManager(). new CourseDescriptorBeans());
 		RootPanel.get("mainWidgetField").add(ccw);
 		
 	}
