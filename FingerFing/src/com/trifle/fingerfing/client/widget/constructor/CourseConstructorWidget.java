@@ -37,6 +37,7 @@ import com.trifle.fingerfing.client.lesson.Course.CourseDescriptor;
 import com.trifle.fingerfing.client.lesson.Course.ExerciseDescriptor;
 import com.trifle.fingerfing.client.lesson.Course.LessonDescriptor;
 import com.trifle.fingerfing.client.lesson.Course.LevelDescriptor;
+import com.trifle.fingerfing.client.lesson.ExersiceImpl;
 
 public class CourseConstructorWidget extends Composite {
 
@@ -83,26 +84,28 @@ public class CourseConstructorWidget extends Composite {
 				.addSelectionChangeHandler(new SelectionChangeEvent.Handler() {
 					@Override
 					public void onSelectionChange(SelectionChangeEvent event) {
-//						lessonSelection.clear();
-//						exerciseSelection.clear();
+						// lessonSelection.clear();
+						// exerciseSelection.clear();
 					}
 				});
 		lessonSelection
 				.addSelectionChangeHandler(new SelectionChangeEvent.Handler() {
 					@Override
 					public void onSelectionChange(SelectionChangeEvent event) {
-//						levelSelection.clear();
-//						exerciseSelection.clear();
+						// levelSelection.clear();
+						// exerciseSelection.clear();
 					}
 				});
 		exerciseSelection
 				.addSelectionChangeHandler(new SelectionChangeEvent.Handler() {
 					@Override
 					public void onSelectionChange(SelectionChangeEvent event) {
-//						levelSelection.clear();
-//						lessonSelection.clear();
-						finalScore.setText(exerciseSelection.getSelectedObject().getFinalScore());
-						switch (exerciseSelection.getSelectedObject().getMethodSelectName()) {
+						// levelSelection.clear();
+						// lessonSelection.clear();
+						finalScore.setText(exerciseSelection
+								.getSelectedObject().getFinalScore());
+						switch (exerciseSelection.getSelectedObject()
+								.getMethodSelectName()) {
 						case "order":
 							passMethod.setSelectedIndex(0);
 							break;
@@ -152,7 +155,7 @@ public class CourseConstructorWidget extends Composite {
 		CourseDescriptor cd = cb.createCourseDescriptor();
 		cd.setName("Noname Course");
 		cd.setLevels(new ArrayList<Course.LevelDescriptor>());
-		
+
 		levelProviders.put(cd,
 				new ListDataProvider<LevelDescriptor>(cd.getLevels()));
 		curCourseDescriptor = cd;
