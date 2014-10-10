@@ -7,14 +7,26 @@
 	}
 	</ui:style>
 	<g:HTMLPanel>
-		<g:HorizontalPanel>
+		<g:HorizontalPanel height="373px">
 			<g:HorizontalPanel ui:field="navPanel" />
 			<g:VerticalPanel ui:field="actPanel">
-				<g:Button ui:field="createCourse" text="createCourse" />
-				<g:Button ui:field="createLevel" text="createLevel" />
-				<g:Button text="createLesson" ui:field="createLesson" />
-				<g:Button ui:field="createExercise" text="createExercise" />
-				<g:ListBox ui:field="passMethod" selectedIndex="0">
+				<g:HorizontalPanel>
+					<g:Button ui:field="createCourse" text="createCourse" />
+				</g:HorizontalPanel>
+				<g:HorizontalPanel>
+					<g:Button ui:field="createLevel" text="createLevel" />
+					<g:Button ui:field="deleteLevel" text="deleteLevel"/>
+				</g:HorizontalPanel>
+				<g:HorizontalPanel>
+					<g:Button text="createLesson" ui:field="createLesson" />
+					<g:Button ui:field="deleteLesson" text="deleteLesson"/>
+				</g:HorizontalPanel>
+				<g:VerticalPanel>
+					<g:HorizontalPanel>
+						<g:Button ui:field="createExercise" text="createExercise" />
+						<g:Button ui:field="deleteExercise" text="deleteExercise"/>
+					</g:HorizontalPanel>
+					<g:ListBox ui:field="passMethod" selectedIndex="0">
 					<g:item value='order'>
 						по порядку
 					</g:item>
@@ -22,8 +34,10 @@
 						случайно
 					</g:item>
 				</g:ListBox>
-				<g:IntegerBox ui:field="finalScore" name="Final Score" value="1000" />
-				<g:TextBox ui:field="inputKeys" />
+					<g:IntegerBox ui:field="finalScore" name="Final Score" value="1000" />
+					<g:TextArea ui:field="inputKeys" height="98px" width="217px" readOnly="true" />
+					<g:Button ui:field="clearKeySequence">clearKeySequence</g:Button>
+				</g:VerticalPanel>
 			</g:VerticalPanel>
 			<g:VerticalPanel ui:field="jsonPanel">
 				<g:Button ui:field="generateJSON" text="generateJSON">genJSON</g:Button>

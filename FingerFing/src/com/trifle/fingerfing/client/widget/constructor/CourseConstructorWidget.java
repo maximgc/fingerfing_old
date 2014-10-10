@@ -61,11 +61,15 @@ public class CourseConstructorWidget extends Composite {
 	@UiField
 	HorizontalPanel navPanel;
 	@UiField
-	TextBox inputKeys;
+	TextArea inputKeys;
 	@UiField
 	IntegerBox finalScore;
 	@UiField
 	ListBox passMethod;
+	@UiField Button deleteLevel;
+	@UiField Button deleteLesson;
+	@UiField Button deleteExercise;
+	@UiField Button clearKeySequence;
 
 	interface CourseConstructorWidgetUiBinder extends
 			UiBinder<Widget, CourseConstructorWidget> {
@@ -101,6 +105,7 @@ public class CourseConstructorWidget extends Composite {
 					public void onSelectionChange(SelectionChangeEvent event) {
 						// levelSelection.clear();
 						// lessonSelection.clear();
+						inputKeys.setText(exerciseSelection.getSelectedObject().getKeySequence().toString());
 						finalScore.setText(exerciseSelection
 								.getSelectedObject().getFinalScore());
 						switch (exerciseSelection.getSelectedObject()
@@ -177,6 +182,13 @@ public class CourseConstructorWidget extends Composite {
 		levelSelection.setSelected(ld, true);
 	}
 
+	@UiHandler("deleteLevel")
+	void onDeleteLevelClick(ClickEvent event) {
+		List<LevelDescriptor> levelList = levelProviders.get(
+				curCourseDescriptor).getList();
+		levelList.remove(levelSelection.getSelectedObject());
+	}
+
 	@UiHandler("createLesson")
 	void onCreateLessonClick(ClickEvent event) {
 		List<LessonDescriptor> lessonList = lessonProviders.get(
@@ -192,6 +204,13 @@ public class CourseConstructorWidget extends Composite {
 				new ListDataProvider<Course.ExerciseDescriptor>(ld
 						.getExercises()));
 		lessonSelection.setSelected(ld, true);
+	}
+
+	@UiHandler("deleteLesson")
+	void onDeleteLessonClick(ClickEvent event) {
+		List<LessonDescriptor> lessonList = lessonProviders.get(
+				levelSelection.getSelectedObject()).getList();
+		lessonList.remove(lessonSelection.getSelectedObject());
 	}
 
 	@UiHandler("createExercise")
@@ -210,12 +229,26 @@ public class CourseConstructorWidget extends Composite {
 		exerciseSelection.setSelected(ed, true);
 	}
 
+	@UiHandler("deleteExercise")
+	void onDeleteExerciseClick(ClickEvent event) {
+		List<ExerciseDescriptor> exList = exerciseProviders.get(
+				lessonSelection.getSelectedObject()).getList();
+		exList.remove(exerciseSelection.getSelectedObject());
+	}
+
 	@UiHandler("inputKeys")
 	void onInputKeysKeyUp(KeyUpEvent event) {
 		if (exerciseSelection.getSelectedObject() != null) {
 			exerciseSelection.getSelectedObject().getKeySequence()
 					.add(NativeKey.getByNativeCode(event.getNativeKeyCode()));
+			inputKeys.setText(exerciseSelection.getSelectedObject().getKeySequence().toString());
 		}
+	}
+
+	@UiHandler("clearKeySequence")
+	void onClearKeySequenceClick(ClickEvent event) {
+		exerciseSelection.getSelectedObject().getKeySequence().clear();
+		inputKeys.setText(exerciseSelection.getSelectedObject().getKeySequence().toString());
 	}
 
 	@UiHandler("passMethod")
@@ -277,5 +310,4 @@ public class CourseConstructorWidget extends Composite {
 		}
 
 	}
-
 }
