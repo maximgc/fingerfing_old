@@ -2530,3 +2530,1082 @@ Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidge
       Compiling...
          Compilation completed in 0,01 seconds
       Removing invalidated units
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2737 units from cache.
+Compiling...
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   40% complete (ETR: 6 seconds)
+   50% complete (ETR: 5 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 12,55 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2737 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Removing invalidated units
+Finding entry point classes
+Public resources found in...
+Translatable source found in...
+Found 2737 cached/archived units.  Used 2737 / 2815 units from cache.
+Compiling...
+   Compilation completed in 0,57 seconds
+Validating units:
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/NativeKeyTest.java'
+      Line 25: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+   Errors in 'file:/C:/Users/tat100kmv1/git/fingerfing/FingerFing/test/com/trifle/fingerfing/client/widget/EffectColorTest.java'
+      Line 27: No source code is available for type org.junit.Assert; did you forget to inherit a required module?
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932722183.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932722183.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932722183_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.i18n.client.CurrencyList
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932724162.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932724162.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932724162_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932764434.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932764434.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932764434_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932767313.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932767313.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932767313_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932772728.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932772728.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932772728_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932774972.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932774972.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932774972_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932781678.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932781678.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932781678_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932792082.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932792082.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932792082_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932797276.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932797276.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932797276_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932799473.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932799473.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932799473_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932804367.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932804367.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932804367_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932806825.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932806825.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932806825_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932808859.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932808859.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932808859_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932813370.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932813370.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932813370_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932825492.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932825492.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932825492_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932827301.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932827301.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932827301_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932829091.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932829091.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932829091_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932837282.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932837282.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932837282_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932838435.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932838435.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932838435_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932839235.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932839235.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932839235_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932840059.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932840059.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932840059_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932841158.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932841158.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932841158_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932842451.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932842451.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932842451_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932843484.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932843484.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932843484_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932855018.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932855018.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932855018_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932875418.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932875418.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932875418_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932878877.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932878877.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932878877_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932890536.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932890536.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932890536_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932919480.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932919480.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932919480_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932931097.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932931097.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932931097_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932939555.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932939555.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932939555_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932942360.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932942360.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932942360_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932950024.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932950024.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932950024_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932953899.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932953899.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412932953899_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933003053.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933003053.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933003053_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933006052.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933006052.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933006052_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933008862.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933008862.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933008862_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933011198.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933011198.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933011198_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933014151.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933014151.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933014151_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933016326.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933016326.Template
+         Generating method body for html1()
+         Generating method body for html2()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933016326_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933045583.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933045583.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933045583_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933058013.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933058013.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933058013_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933064640.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933064640.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933064640_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933068662.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933068662.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933068662_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933095489.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933095489.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933095489_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933103682.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933103682.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933103682_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933117341.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933117341.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933117341_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933140983.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933140983.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933140983_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933142833.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933142833.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933142833_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933143507.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933143507.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933143507_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933641134.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933641134.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933641134_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget.CourseConstructorWidgetUiBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933669212.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933669212.Template
+         Generating method body for html1()
+         Generating method body for html2()
+         Generating method body for html3()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,00 seconds
+      Removing invalidated units
+Rebinding com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget_CourseConstructorWidgetUiBinderImpl_designTime1412933669212_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
