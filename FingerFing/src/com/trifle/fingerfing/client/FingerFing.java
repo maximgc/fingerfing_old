@@ -14,6 +14,10 @@ import com.google.gwt.user.client.ui.RootPanel;
 import com.trifle.fingerfing.client.calcs.BonusMultiplier;
 import com.trifle.fingerfing.client.calcs.StatCalcConvergentOld1;
 import com.trifle.fingerfing.client.json.BeanManager;
+import com.trifle.fingerfing.client.json.BeanManager.CourseDescriptorBeans;
+import com.trifle.fingerfing.client.lesson.Course;
+import com.trifle.fingerfing.client.lesson.Course.CourseDescriptor;
+import com.trifle.fingerfing.client.lesson.CourseImpl;
 import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
 import com.trifle.fingerfing.client.resources.FFResources;
 import com.trifle.fingerfing.client.widget.Effects;
@@ -71,10 +75,20 @@ public class FingerFing implements EntryPoint {
 //	}
 
 	
-	public void onModuleLoad() {
+//	public void onModuleLoad() {
+//	
+//		CourseConstructorWidget ccw = new CourseConstructorWidget(new BeanManager(). new CourseDescriptorBeans());
+//		RootPanel.get("mainWidgetField").add(ccw);
+//		
+//	}
 	
-		CourseConstructorWidget ccw = new CourseConstructorWidget(new BeanManager(). new CourseDescriptorBeans());
-		RootPanel.get("mainWidgetField").add(ccw);
+	public void onModuleLoad() {
+		String courseJson = FFResources.INST.getCourseDescriptorJSON().getText();
+		CourseDescriptorBeans cdb = new BeanManager(). new CourseDescriptorBeans();
+		CourseDescriptor cd = cdb.decodeCourseDescriptor(courseJson);
+		Course course = new CourseImpl(cd);
+		
+//		RootPanel.get("mainWidgetField").add(ccw);
 		
 	}
 

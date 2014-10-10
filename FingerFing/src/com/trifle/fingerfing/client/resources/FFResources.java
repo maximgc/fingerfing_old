@@ -8,6 +8,7 @@ public interface FFResources extends ClientBundle {
 
 	public static final FFResources INST = GWT.create(FFResources.class);
 	
+	@Deprecated
 	@Source("WorkingSets1.json")
 	public TextResource getWorkingSets();
 
@@ -16,5 +17,8 @@ public interface FFResources extends ClientBundle {
 	
 	@Source("KeyBlockBase.json")
 	public TextResource getKeyBlockBase();
+	
+	@Source("Course1.json")
+	public TextResource getCourseDescriptorJSON();
 
 }
