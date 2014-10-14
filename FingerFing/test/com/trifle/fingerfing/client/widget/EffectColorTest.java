@@ -6,8 +6,8 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import com.trifle.fingerfing.client.widget.effect.EColor;
-import com.trifle.fingerfing.client.widget.effect.IllegalEColor;
+import com.trifle.fingerfing.client.widget_old.effect.EColor;
+import com.trifle.fingerfing.client.widget_old.effect.IllegalEColor;
 
 public class EffectColorTest {
 

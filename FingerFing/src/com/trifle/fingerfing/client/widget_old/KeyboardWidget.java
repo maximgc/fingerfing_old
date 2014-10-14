@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget;
+package com.trifle.fingerfing.client.widget_old;
 
 import java.util.List;
 import java.util.Set;
@@ -6,7 +6,7 @@ import java.util.Set;
 import com.google.gwt.user.client.ui.IsWidget;
 import com.trifle.fingerfing.client.AlternativeKeyLayout;
 import com.trifle.fingerfing.client.NativeKey;
-import com.trifle.fingerfing.client.widget.effect.Effect;
+import com.trifle.fingerfing.client.widget_old.effect.Effect;
 
 public interface KeyboardWidget extends IsWidget{
 

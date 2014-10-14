@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget;
+package com.trifle.fingerfing.client.widget_old;
 
 import java.util.Collections;
 import java.util.EnumMap;
@@ -20,7 +20,7 @@ import com.google.gwt.user.client.ui.ToggleButton;
 import com.google.gwt.user.client.ui.Widget;
 import com.trifle.fingerfing.client.AlternativeKeyLayout;
 import com.trifle.fingerfing.client.NativeKey;
-import com.trifle.fingerfing.client.widget.effect.Effect;
+import com.trifle.fingerfing.client.widget_old.effect.Effect;
 
 public class KeyboardWidgetUI extends Composite implements KeyboardWidget {
 

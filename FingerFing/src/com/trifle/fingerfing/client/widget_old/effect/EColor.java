@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget.effect;
+package com.trifle.fingerfing.client.widget_old.effect;
 
 public class EColor {
 	

@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget.effect;
+package com.trifle.fingerfing.client.widget_old.effect;
 
 import com.google.gwt.user.client.ui.IsWidget;
 

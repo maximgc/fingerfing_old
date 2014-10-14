@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget.constructor;
+package com.trifle.fingerfing.client.widget_old.constructor;
 
 import java.util.EnumMap;
 import com.google.gwt.core.client.GWT;

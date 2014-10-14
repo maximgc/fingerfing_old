@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget.newage;
+package com.trifle.fingerfing.client.widget_old.newage;
 
 import java.util.List;
 

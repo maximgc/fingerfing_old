@@ -2,7 +2,7 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui">
 	<ui:style
-		type="com.trifle.fingerfing.client.widget.newage.ProgressBarBase.Styles">
+		type="com.trifle.fingerfing.client.widget_old.newage.ProgressBarBase.Styles">
 		.important {
 			font-weight: bold;
 		}

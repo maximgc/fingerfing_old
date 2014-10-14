@@ -1,9 +1,9 @@
-package com.trifle.fingerfing.client.widget;
+package com.trifle.fingerfing.client.widget_old;
 
-import com.trifle.fingerfing.client.widget.effect.EColor;
-import com.trifle.fingerfing.client.widget.effect.Effect;
-import com.trifle.fingerfing.client.widget.effect.EffectBgColor;
-import com.trifle.fingerfing.client.widget.effect.EffectTransparent;
+import com.trifle.fingerfing.client.widget_old.effect.EColor;
+import com.trifle.fingerfing.client.widget_old.effect.Effect;
+import com.trifle.fingerfing.client.widget_old.effect.EffectBgColor;
+import com.trifle.fingerfing.client.widget_old.effect.EffectTransparent;
 
 public interface Effects {
 	

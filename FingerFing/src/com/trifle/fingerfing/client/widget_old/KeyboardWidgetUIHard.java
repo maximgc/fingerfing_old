@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget;
+package com.trifle.fingerfing.client.widget_old;
 
 //import java.util.EnumMap;
 //import java.util.EnumSet;
@@ -15,7 +15,7 @@ import com.google.gwt.user.client.ui.Composite;
 //import com.google.gwt.user.client.ui.Widget;
 //import com.trifle.fingerfing.client.IllegalNativeKey;
 //import com.trifle.fingerfing.client.NativeKey;
-//import com.trifle.fingerfing.client.widget.effect.Effect;
+//import com.trifle.fingerfing.client.widget_old.effect.Effect;
 
 public class KeyboardWidgetUIHard extends Composite { // implements KeyboardWidget  {
 //
@@ -97,7 +97,7 @@ public class KeyboardWidgetUIHard extends Composite { // implements KeyboardWidg
 //	double fontSize = 14;
 //	
 //	/* (non-Javadoc)
-//	 * @see com.trifle.fingerfing.client.widget.KeyboardWidget#setEffect(com.trifle.fingerfing.client.NativeKey, com.trifle.fingerfing.client.widget.effect.Effect)
+//	 * @see com.trifle.fingerfing.client.widget_old.KeyboardWidget#setEffect(com.trifle.fingerfing.client.NativeKey, com.trifle.fingerfing.client.widget_old.effect.Effect)
 //	 */
 //	@Override
 //	public void setEffect(NativeKey n, Effect e){
@@ -107,7 +107,7 @@ public class KeyboardWidgetUIHard extends Composite { // implements KeyboardWidg
 //	}
 //	
 //	/* (non-Javadoc)
-//	 * @see com.trifle.fingerfing.client.widget.KeyboardWidget#setEffectAll(com.trifle.fingerfing.client.widget.effect.Effect)
+//	 * @see com.trifle.fingerfing.client.widget_old.KeyboardWidget#setEffectAll(com.trifle.fingerfing.client.widget_old.effect.Effect)
 //	 */
 //	@Override
 //	public void setEffectAll(Effect e){
@@ -119,7 +119,7 @@ public class KeyboardWidgetUIHard extends Composite { // implements KeyboardWidg
 //	}
 //	
 //	/* (non-Javadoc)
-//	 * @see com.trifle.fingerfing.client.widget.KeyboardWidget#setEffectAll(java.util.List, com.trifle.fingerfing.client.widget.effect.Effect)
+//	 * @see com.trifle.fingerfing.client.widget_old.KeyboardWidget#setEffectAll(java.util.List, com.trifle.fingerfing.client.widget_old.effect.Effect)
 //	 */
 //	@Override
 //	public void setEffectAll(List<NativeKey> sn, Effect e){
@@ -127,7 +127,7 @@ public class KeyboardWidgetUIHard extends Composite { // implements KeyboardWidg
 //	}
 //
 //	/* (non-Javadoc)
-//	 * @see com.trifle.fingerfing.client.widget.KeyboardWidget#setEffectAll(java.util.Set, com.trifle.fingerfing.client.widget.effect.Effect)
+//	 * @see com.trifle.fingerfing.client.widget_old.KeyboardWidget#setEffectAll(java.util.Set, com.trifle.fingerfing.client.widget_old.effect.Effect)
 //	 */
 //	@Override
 //	public void setEffectAll(Set<NativeKey> sn, Effect e){

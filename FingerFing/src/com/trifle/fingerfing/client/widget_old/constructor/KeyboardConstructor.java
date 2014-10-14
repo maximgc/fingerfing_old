@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget.constructor;
+package com.trifle.fingerfing.client.widget_old.constructor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.event.dom.client.KeyDownEvent;
 import com.trifle.fingerfing.client.NativeKey;
 import com.trifle.fingerfing.client.json.BeanManager;
-import com.trifle.fingerfing.client.widget.KeyboardWidget;
+import com.trifle.fingerfing.client.widget_old.KeyboardWidget;
 
 public class KeyboardConstructor extends Composite {
 

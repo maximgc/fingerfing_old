@@ -6,7 +6,7 @@ import com.google.web.bindery.autobean.shared.AutoBeanUtils;
 import com.trifle.fingerfing.client.AlternativeKeyLayout;
 import com.trifle.fingerfing.client.lesson.Course;
 import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
-import com.trifle.fingerfing.client.widget.KeyboardWidget;
+import com.trifle.fingerfing.client.widget_old.KeyboardWidget;
 
 public class BeanManager {
 

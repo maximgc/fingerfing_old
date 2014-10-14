@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget;
+package com.trifle.fingerfing.client.widget_old;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -17,7 +17,7 @@ import com.trifle.fingerfing.client.calcs.StatCalcConvergentOld1;
 import com.trifle.fingerfing.client.json.BeanManager;
 import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
 import com.trifle.fingerfing.client.resources.FFResources;
-import com.trifle.fingerfing.client.widget.KeyboardWidget.KeyBlock;
+import com.trifle.fingerfing.client.widget_old.KeyboardWidget.KeyBlock;
 import com.google.gwt.uibinder.client.UiHandler;
 
 public class TrainerView extends Composite {

@@ -1,4 +1,4 @@
-package com.trifle.fingerfing.client.widget;
+package com.trifle.fingerfing.client.widget_old;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;
@@ -7,7 +7,7 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.gwt.user.client.ui.Label;
 import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
-import com.trifle.fingerfing.client.widget.newage.ProgressBar;
+import com.trifle.fingerfing.client.widget_old.newage.ProgressBar;
 
 public class ExcerciseProgress extends Composite{
 

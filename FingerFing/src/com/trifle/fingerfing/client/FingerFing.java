@@ -20,18 +20,18 @@ import com.trifle.fingerfing.client.lesson.Course.CourseDescriptor;
 import com.trifle.fingerfing.client.lesson.CourseImpl;
 import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
 import com.trifle.fingerfing.client.resources.FFResources;
-import com.trifle.fingerfing.client.widget.Effects;
-import com.trifle.fingerfing.client.widget.ExcerciseProgress;
-import com.trifle.fingerfing.client.widget.KeyboardWidget;
-import com.trifle.fingerfing.client.widget.TrainerView;
-import com.trifle.fingerfing.client.widget.KeyboardWidget.KeyBlock;
-import com.trifle.fingerfing.client.widget.constructor.CourseConstructorWidget;
-import com.trifle.fingerfing.client.widget.constructor.JSONConstructorWidget;
-import com.trifle.fingerfing.client.widget.newage.HorizontalProgressBar;
-import com.trifle.fingerfing.client.widget.newage.ProgressBarBase;
-import com.trifle.fingerfing.client.widget.newage.VerticalProgressBar;
-import com.trifle.fingerfing.client.widget.KeyboardWidgetUI;
-import com.trifle.fingerfing.client.widget.SensorIndicator;
+import com.trifle.fingerfing.client.widget_old.Effects;
+import com.trifle.fingerfing.client.widget_old.ExcerciseProgress;
+import com.trifle.fingerfing.client.widget_old.KeyboardWidget;
+import com.trifle.fingerfing.client.widget_old.KeyboardWidgetUI;
+import com.trifle.fingerfing.client.widget_old.SensorIndicator;
+import com.trifle.fingerfing.client.widget_old.TrainerView;
+import com.trifle.fingerfing.client.widget_old.KeyboardWidget.KeyBlock;
+import com.trifle.fingerfing.client.widget_old.constructor.CourseConstructorWidget;
+import com.trifle.fingerfing.client.widget_old.constructor.JSONConstructorWidget;
+import com.trifle.fingerfing.client.widget_old.newage.HorizontalProgressBar;
+import com.trifle.fingerfing.client.widget_old.newage.ProgressBarBase;
+import com.trifle.fingerfing.client.widget_old.newage.VerticalProgressBar;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
