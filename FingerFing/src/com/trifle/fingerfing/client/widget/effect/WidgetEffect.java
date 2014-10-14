@@ -7,7 +7,7 @@ import com.google.gwt.animation.client.Animation;
 import com.google.gwt.user.client.ui.Widget;
 
 
-//TODO Импортирован из старого проекта, нужен пересмотр
+//TODO пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 @Deprecated
 public class WidgetEffect {
 
