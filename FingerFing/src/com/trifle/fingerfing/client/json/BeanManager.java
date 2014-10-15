@@ -4,9 +4,9 @@ import com.google.gwt.core.shared.GWT;
 import com.google.web.bindery.autobean.shared.AutoBeanCodex;
 import com.google.web.bindery.autobean.shared.AutoBeanUtils;
 import com.trifle.fingerfing.client.AlternativeKeyLayout;
-import com.trifle.fingerfing.client.lesson.Course;
-import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
-import com.trifle.fingerfing.client.widget_old.KeyboardWidget;
+import com.trifle.fingerfing.client.lesson.CourseDescriptor;
+import com.trifle.fingerfing.client.old.ExerciseControllerOld1;
+import com.trifle.fingerfing.client.old.KeyboardWidget;
 
 public class BeanManager {
 
@@ -93,29 +93,29 @@ public class BeanManager {
 	
 	public class CourseDescriptorBeans {
 		
-		public Course.CourseDescriptor decodeCourseDescriptor(String json) {
+		public CourseDescriptor decodeCourseDescriptor(String json) {
 			return AutoBeanCodex.decode(f,
-					Course.CourseDescriptor.class, json).as();
+					CourseDescriptor.class, json).as();
 		}
 
-		public String encodeCourseDescriptor(Course.CourseDescriptor b) {
+		public String encodeCourseDescriptor(CourseDescriptor b) {
 			return AutoBeanCodex.encode(AutoBeanUtils.getAutoBean(b))
 					.getPayload();
 		}
 
-		public Course.CourseDescriptor createCourseDescriptor() {
+		public CourseDescriptor createCourseDescriptor() {
 			return f.createCourseDescriptor().as();
 		}
 
-		public Course.LevelDescriptor createLevelDescriptor() {
+		public CourseDescriptor.LevelDescriptor createLevelDescriptor() {
 			return f.createLevelDescriptor().as();
 		}
 
-		public Course.LessonDescriptor createLessonDescriptor() {
+		public CourseDescriptor.LessonDescriptor createLessonDescriptor() {
 			return f.createLessonDescriptor().as();
 		}
 
-		public Course.ExerciseDescriptor createExerciseDescriptor() {
+		public CourseDescriptor.ExerciseDescriptor createExerciseDescriptor() {
 			return f.createExerciseDescriptor().as();
 		}
 

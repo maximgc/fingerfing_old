@@ -1,0 +1,90 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:p1="urn:import:com.trifle.fingerfing.client.widget.progressbar">
+	<ui:style>
+	.important {
+		font-weight: bold;
+	}
+	</ui:style>
+		<g:HorizontalPanel>
+			<g:Grid width="400px">
+				<g:row>
+					<g:customCell>
+						<g:Label text="Время" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label ui:field="mScore"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lFullTime" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Попыт" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label ui:field="mForCorrect"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lFullCount" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Коррек" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label ui:field="mForSuccess"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lFullSuccessDensity" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Скор" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label ui:field="mForSpeed"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lLastMeanSpeed" />
+					</g:customCell>
+				</g:row>
+				<g:row>
+					<g:customCell>
+						<g:Label text="Темп" />
+					</g:customCell>
+					<g:customCell>
+						<g:Label ui:field="mForTemp"/>
+					</g:customCell>
+					<g:customCell>
+						<g:Label text="" ui:field="lLastMeanDeviation" />
+					</g:customCell>
+				</g:row>
+			</g:Grid>
+			<g:Grid width="">
+				<g:row>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgMeanSpeed" elementCount="40" elementWidthPx="30" elementHeightPx="3" rangeEndValue="100"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgInSpeed" elementCount="10" elementHeightPx="8" elementWidthPx="8" rangeEndValue="10"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgTemp" elementCount="40" elementWidthPx="30" elementHeightPx="3" rangeEndValue="100"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgInTemp" elementCount="11" elementHeightPx="8" elementWidthPx="8" rangeEndValue="55"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgSuccessDensity" elementCount="40" elementWidthPx="30" elementHeightPx="3" rangeEndValue="100"/>
+					</g:customCell>
+					<g:customCell>
+						<p1:VerticalProgressBar ui:field="pgInDensity" elementCount="7" elementHeightPx="8" elementWidthPx="8" rangeEndValue="35"/>
+					</g:customCell>
+				</g:row>
+			</g:Grid>
+		</g:HorizontalPanel>
+</ui:UiBinder> 

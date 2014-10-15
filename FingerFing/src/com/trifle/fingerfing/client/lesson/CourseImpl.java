@@ -1,10 +1,9 @@
 package com.trifle.fingerfing.client.lesson;
 
-
 public class CourseImpl implements Course {
-	
+
 	private CourseDescriptor descriptor;
-	
+
 	public CourseImpl(CourseDescriptor descriptor) {
 		this.descriptor = descriptor;
 	}
@@ -14,5 +13,17 @@ public class CourseImpl implements Course {
 		return descriptor;
 	}
 
-	
+	@Override
+	public void resetAll() {
+	}
+
+	@Override
+	public void jumpToExercise() {
+	}
+
+	@Override
+	public Exercise getExercise() {
+		return null;
+	}
+
 }

@@ -3,9 +3,9 @@ package com.trifle.fingerfing.client.json;
 import com.google.web.bindery.autobean.shared.AutoBean;
 import com.google.web.bindery.autobean.shared.AutoBeanFactory;
 import com.trifle.fingerfing.client.AlternativeKeyLayout;
-import com.trifle.fingerfing.client.lesson.Course;
-import com.trifle.fingerfing.client.lesson.ExerciseControllerOld1;
-import com.trifle.fingerfing.client.widget_old.KeyboardWidget;
+import com.trifle.fingerfing.client.lesson.CourseDescriptor;
+import com.trifle.fingerfing.client.old.ExerciseControllerOld1;
+import com.trifle.fingerfing.client.old.KeyboardWidget;
 
 public interface BeanFactory extends AutoBeanFactory {
 
@@ -24,12 +24,12 @@ public interface BeanFactory extends AutoBeanFactory {
 	
 	
 	
-	AutoBean<Course.CourseDescriptor> createCourseDescriptor();
+	AutoBean<CourseDescriptor> createCourseDescriptor();
 	
-	AutoBean<Course.LevelDescriptor> createLevelDescriptor();
+	AutoBean<CourseDescriptor.LevelDescriptor> createLevelDescriptor();
 	
-	AutoBean<Course.LessonDescriptor> createLessonDescriptor();
+	AutoBean<CourseDescriptor.LessonDescriptor> createLessonDescriptor();
 	
-	AutoBean<Course.ExerciseDescriptor> createExerciseDescriptor();
+	AutoBean<CourseDescriptor.ExerciseDescriptor> createExerciseDescriptor();
 	
 }
