@@ -29,19 +29,16 @@ public interface Exercise {
 	// Получить следующий блок
 	public Block getNextBlock();
 
-	// Получить текущую позицию
-	public int getPos();
-
 	public boolean hasNextPos();
 
 	// Получить следующую позицию
 	public int getNextPos();
 
 	// Получить оценку для текущей позиции
-	public int getPosEval();
+	public int getPrevEval();
 
 	// Получить оценку для позиции
-	public int getPosEval(int pos);
+	public int getPrevEval(int pos);
 
 	// Получение показателей
 	public void getIndicators();
@@ -50,7 +47,7 @@ public interface Exercise {
 	public void getProgress();
 
 	// Сброс на начало (задания)
-	public void resetExercise();
+	public void resetAll();
 
 	// Ввод попытки
 	public void inputAttempt(NativeKey elem);

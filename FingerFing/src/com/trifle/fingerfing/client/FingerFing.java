@@ -1,5 +1,6 @@
 package com.trifle.fingerfing.client;
 
+import java.util.Collections;
 import java.util.List;
 
 import com.google.gwt.core.client.EntryPoint;
@@ -10,6 +11,7 @@ import com.google.gwt.event.dom.client.KeyDownHandler;
 import com.google.gwt.event.dom.client.KeyUpEvent;
 import com.google.gwt.event.dom.client.KeyUpHandler;
 import com.google.gwt.user.client.Timer;
+import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.FocusPanel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
@@ -20,6 +22,7 @@ import com.trifle.fingerfing.client.json.BeanManager.CourseDescriptorBeans;
 import com.trifle.fingerfing.client.lesson.Course;
 import com.trifle.fingerfing.client.lesson.CourseDescriptor;
 import com.trifle.fingerfing.client.lesson.CourseImpl;
+import com.trifle.fingerfing.client.lesson.Exercise;
 import com.trifle.fingerfing.client.old.Effects;
 import com.trifle.fingerfing.client.old.ExcerciseProgress;
 import com.trifle.fingerfing.client.old.ExerciseControllerOld1;
@@ -84,24 +87,49 @@ public class FingerFing implements EntryPoint {
 //		RootPanel.get("mainWidgetField").add(ccw);
 //		
 //	}
+	Exercise seq = null; 
 	
 	public void onModuleLoad() {
 		//init logic and content
 		String courseJson = FFResources.INST.getCourseDescriptorJSON().getText();
 		CourseDescriptorBeans cdb = new BeanManager(). new CourseDescriptorBeans();
 		CourseDescriptor cd = cdb.decodeCourseDescriptor(courseJson);
-		Course course = new CourseImpl(cd);
+		final Course course = new CourseImpl(cd);
 		
 		//init view
-		CoursePassingW courseW = new CoursePassingW();
+		final CoursePassingW courseW = new CoursePassingW();
 		RootPanel.get("mainWidgetField").add(courseW);
+		Button b = new Button();
+		RootPanel.get("mainWidgetField").add(b);
+		
+		b.addClickHandler(new ClickHandler() {
+			@Override
+			public void onClick(ClickEvent event) {
+				if (seq.hasNextPos()){
+				courseW.getExercisePassingW().setCurrentElement(seq.getNextPos());
+				} else {
+					if (course.hasNextExercise()) {
+					seq = course.getNextExercise();
+					courseW.getExercisePassingW().setWorkSequence(seq.getSequence());
+					courseW.getExercisePassingW().setWorkArea(seq.getArea());
+					courseW.getExercisePassingW().setCurrentBlock(0, 3);
+					courseW.getExercisePassingW().setCurrentElement(seq.getNextPos());}
+					else {
+						courseW.getExercisePassingW().setWorkSequence(Collections.<NativeKey>emptyList());
+					}
+				}
+			}
+		});
 		
 		
-		List<NativeKey> seq = course.getDescriptor().getLevels().get(0).getLessons().get(0).getExercises().get(0).getKeySequence();
-		courseW.getExercisePassingW().setWorkSequence(seq);
-		courseW.getExercisePassingW().setWorkArea(seq);
+//		while (course.hasNextExercise()) 
+			seq = course.getNextExercise();
+//		course.resetAll();
+//		seq = course.getNextExercise();
+		courseW.getExercisePassingW().setWorkSequence(seq.getSequence());
+		courseW.getExercisePassingW().setWorkArea(seq.getArea());
 		courseW.getExercisePassingW().setCurrentBlock(0, 3);
-		courseW.getExercisePassingW().setCurrentElement(0);
+		courseW.getExercisePassingW().setCurrentElement(seq.getNextPos());
 	}
 
 	

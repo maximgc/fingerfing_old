@@ -55,7 +55,7 @@ public class ExerciseTextW extends Composite implements ExercisePassingW {
 		all += "Sequence: " + seq + (char)13;
 		all += "Cur Block: " + curBlock + (char)13;
 		all += "Cur Element(" + curPos + "): " + curElem + (char)13;
-		all += "Evals: " + Arrays.asList(evals) + (char)13;
+		all += "Evals: " + Arrays.toString(evals) + (char)13;
 		textArea.setText(all);
 	}
 
