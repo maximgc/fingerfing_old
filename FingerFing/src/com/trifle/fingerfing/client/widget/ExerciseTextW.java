@@ -30,8 +30,6 @@ public class ExerciseTextW extends Composite implements ExercisePassingW {
 	
 	private int[] evals;
 
-	private List<NativeKey> curBlock;
-
 	private NativeKey curElem;
 
 	private int curPos;
@@ -53,7 +51,6 @@ public class ExerciseTextW extends Composite implements ExercisePassingW {
 		String all = "";
 		all += "Area: " + area + (char)13;
 		all += "Sequence: " + seq + (char)13;
-		all += "Cur Block: " + curBlock + (char)13;
 		all += "Cur Element(" + curPos + "): " + curElem + (char)13;
 		all += "Evals: " + Arrays.toString(evals) + (char)13;
 		textArea.setText(all);
@@ -63,12 +60,6 @@ public class ExerciseTextW extends Composite implements ExercisePassingW {
 	public void setWorkSequence(List<NativeKey> seq) {
 		this.seq = seq;
 		evals = new int[seq.size()];
-		showAll();
-	}
-
-	@Override
-	public void setCurrentBlock(int pos, int lenght) {
-		curBlock = seq.subList(pos, pos + lenght);
 		showAll();
 	}
 

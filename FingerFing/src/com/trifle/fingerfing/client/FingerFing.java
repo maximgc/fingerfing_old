@@ -106,14 +106,13 @@ public class FingerFing implements EntryPoint {
 			@Override
 			public void onClick(ClickEvent event) {
 				if (seq.hasNextPos()){
-				courseW.getExercisePassingW().setCurrentElement(seq.getNextPos());
+				courseW.getExercisePassingW().setCurrentElement(seq.nextElement());
 				} else {
 					if (course.hasNextExercise()) {
 					seq = course.getNextExercise();
 					courseW.getExercisePassingW().setWorkSequence(seq.getSequence());
 					courseW.getExercisePassingW().setWorkArea(seq.getArea());
-					courseW.getExercisePassingW().setCurrentBlock(0, 3);
-					courseW.getExercisePassingW().setCurrentElement(seq.getNextPos());}
+					courseW.getExercisePassingW().setCurrentElement(seq.nextElement());}
 					else {
 						courseW.getExercisePassingW().setWorkSequence(Collections.<NativeKey>emptyList());
 					}
@@ -128,8 +127,7 @@ public class FingerFing implements EntryPoint {
 //		seq = course.getNextExercise();
 		courseW.getExercisePassingW().setWorkSequence(seq.getSequence());
 		courseW.getExercisePassingW().setWorkArea(seq.getArea());
-		courseW.getExercisePassingW().setCurrentBlock(0, 3);
-		courseW.getExercisePassingW().setCurrentElement(seq.getNextPos());
+		courseW.getExercisePassingW().setCurrentElement(seq.nextElement());
 	}
 
 	

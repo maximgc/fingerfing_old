@@ -7,11 +7,21 @@ import com.trifle.fingerfing.client.NativeKey;
 
 public interface Exercise {
 
-	interface Block {
+	class Element {
 
-		void getStartPos();
+		public int pos;
+		public NativeKey key;
+		public int eval;
 
-		void getEndPos();
+		public Element(int pos, NativeKey key) {
+			this(pos, key, 0);
+		}
+
+		public Element(int pos, NativeKey key, int eval) {
+			this.pos = pos;
+			this.key = key;
+			this.eval = eval;
+		}
 
 	}
 
@@ -21,18 +31,13 @@ public interface Exercise {
 	// Получить последовательность
 	public List<NativeKey> getSequence();
 
-	// Получить блок
-	public Block getBlock();
-
-	public void hasNextBlock();
-
-	// Получить следующий блок
-	public Block getNextBlock();
+	// Получить введеную последовательность
+	public List<Element> getAttemptSequence();
 
 	public boolean hasNextPos();
 
 	// Получить следующую позицию
-	public int getNextPos();
+	public Element nextElement();
 
 	// Получить оценку для текущей позиции
 	public int getPrevEval();
@@ -51,5 +56,5 @@ public interface Exercise {
 
 	// Ввод попытки
 	public void inputAttempt(NativeKey elem);
-	
+
 }

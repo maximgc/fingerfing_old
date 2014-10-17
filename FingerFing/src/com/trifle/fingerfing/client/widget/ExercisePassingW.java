@@ -12,9 +12,6 @@ public interface ExercisePassingW {
 	// Отображение всей последовательности задания.
 	void setWorkSequence(List<NativeKey> seq);
 
-	// Отображение текущего блока задания.
-	void setCurrentBlock(int pos, int lenght);
-
 	// Отображение текущего элемента.
 	void setCurrentElement(int pos);
 
